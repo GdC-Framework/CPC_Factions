@@ -9,7 +9,10 @@ class CfgPatches
 			"CPC_JUN_I_AGUE_soldier_2",
 			"CPC_JUN_I_AGUE_soldier_3",
 			"CPC_JUN_I_AGUE_soldier_4",
+			"CPC_JUN_I_AGUE_soldier_5",
+			"CPC_JUN_I_AGUE_soldier_6",
 			"CPC_JUN_I_AGUE_soldier_GL",
+			"CPC_JUN_I_AGUE_soldier_GL_2",
 			"CPC_JUN_I_AGUE_soldier_M",
 			"CPC_JUN_I_AGUE_soldier_LAT",
 			"CPC_JUN_I_AGUE_soldier_AT",
@@ -84,7 +87,10 @@ class CfgPatches
 			"CPC_JUN_B_AMIL_UH60M",
 			"CPC_JUN_B_AMIL_UH60M2",
 			"CPC_JUN_B_AMIL_UH60M_MEV2",
-			"CPC_JUN_B_AMIL_AH1Z"
+			"CPC_JUN_B_AMIL_AH1Z",
+			"CPC_JUN_B_AMIL_UH1H",
+			"CPC_JUN_B_AMIL_UH1H_gunship",
+			"CPC_JUN_B_AMIL_UH1H_unarmed"
 		};
 		weapons[] = 
 		{
@@ -94,6 +100,7 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"CPC_Factions_RHS_Main",
+			"cba_xeh",
 			"A3_Characters_F",
 			"A3_Boat_F_Boat_Transport_01",
 			"rhsgref_c_weapons",

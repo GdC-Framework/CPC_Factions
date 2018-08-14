@@ -307,6 +307,57 @@
 		};
 		VEHICLECARGOSMALLKAM
 	};
+	class rhs_2s3tank_base: Tank_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics;
+				};
+			};
+		};
+	};
+	class CPC_ME_O_KAM_2s3 : rhs_2s3tank_base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_O_KAM";
+		crew = "CPC_ME_O_KAM_soldier_crew";
+        typicalCargo[] = {"CPC_ME_O_KAM_soldier_crew","CPC_ME_O_KAM_soldier_crew","CPC_ME_O_KAM_soldier_crew","CPC_ME_O_KAM_soldier_crew"};
+		rhs_decalParameters[] = {"['Number',cRHS2S3NumberPlaces,'Iraqi']"};
+		hiddenSelectionsTextures[] =
+		{
+			"rhsafrf\addons\rhs_2s3_camo\data\rhs_2s3_01_des_co.paa",
+			"rhsafrf\addons\rhs_2s3_camo\data\rhs_2s3_02_des_co.paa",
+			"rhsafrf\addons\rhs_2s3_camo\data\rhs_art_wheels_des_co.paa",
+			"rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+			"rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+			"rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa"
+		};
+		VEHICLECARGOSMALLKAM
+		
+		displayName = "$STR_2S3M1_Name";
+		model = "\rhsafrf\addons\rhs_2s3\rhs_2s3";
+		editorPreview = "rhsafrf\addons\rhs_editorPreviews\data\rhs_2s3_tv.paa";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						gunnerType="CPC_ME_O_KAM_soldier_crew";
+					};
+				};
+			};
+		};
+	};
 	class rhs_zsutank_base;
 	class CPC_ME_O_KAM_ZSU : rhs_zsutank_base
 	{

@@ -66,6 +66,23 @@ class cfgWeapons
 			mass = 40;
 		};
 	};
+	class CPC_ME_Uniform_M93_sand_1_blufor: Uniform_Base
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "M93 (Sand 1)";
+		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CPC_ME_B_DAM_soldier_base_2";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
 	class CPC_ME_Uniform_M93_sand_2: Uniform_Base
 	{
 		scope = 2;

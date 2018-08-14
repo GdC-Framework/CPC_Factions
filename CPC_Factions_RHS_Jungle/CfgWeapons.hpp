@@ -21,14 +21,15 @@ class cfgWeapons
 		};
 	};
 	// heagears
-	class rhs_fieldcap_digi2;
-	class CPC_JUN_fieldcap: rhs_fieldcap_digi2
+	class rhsgref_patrolcap_specter;
+	class CPC_JUN_fieldcap: rhsgref_patrolcap_specter
 	{
 		scope = 2;
 		scopeArsenal = 2;
 		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "Field Cap Olive (Alt)";
+		model = "\rhsgref\addons\rhsgref_infantry\gear_cdf\head\gref_fieldcap_digi2";
 		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Jungle\data\fieldcapalt_green1_co"};
 	};
 	// Weapons

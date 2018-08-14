@@ -142,10 +142,10 @@
 		scopeCurator = 2;
 		linkedItems[] = {"rhssaf_vest_md99_md2camo","rhsusf_cvc_green_alt_helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhssaf_vest_md99_md2camo","rhsusf_cvc_green_alt_helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"rhs_weap_m21s","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m21s","Throw","Put"};
-		magazines[] = {"rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","SmokeShell","SmokeShell","rhs_mag_m67"};
-		respawnMagazines[] = {"rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","SmokeShell","SmokeShell","rhs_mag_m67"};
+		weapons[] = {"rhs_weap_m3a1","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m3a1","Throw","Put"};
+		magazines[] = {"rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","SmokeShell","SmokeShell","rhs_mag_m67"};
+		respawnMagazines[] = {"rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","SmokeShell","SmokeShell","rhs_mag_m67"};
 	};
 	class CPC_JUN_B_AMIL_soldier_TL : CPC_JUN_B_AMIL_soldier_1
 	{
@@ -178,10 +178,10 @@
 		ACE_GForceCoef = 0.55;
 		linkedItems[] = {"rhssaf_vest_md99_md2camo_radio","rhsusf_hgu56p_green","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
 		respawnLinkedItems[] = {"rhssaf_vest_md99_md2camo_radio","rhsusf_hgu56p_green","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
-		weapons[] = {"rhs_weap_m21s","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m21s","Throw","Put"};
-		magazines[] = {"rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","SmokeShell","SmokeShell","rhs_mag_m67"};
-		respawnMagazines[] = {"rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","SmokeShell","SmokeShell","rhs_mag_m67"};
+		weapons[] = {"rhs_weap_m3a1","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m3a1","Throw","Put"};
+		magazines[] = {"rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","SmokeShell","SmokeShell","rhs_mag_m67"};
+		respawnMagazines[] = {"rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","SmokeShell","SmokeShell","rhs_mag_m67"};
 	};
 	class CPC_JUN_B_AMIL_soldier_Pilot : CPC_JUN_B_AMIL_soldier_HeliPilot
 	{
@@ -304,7 +304,7 @@
 		crew = "CPC_JUN_B_AMIL_soldier_crew";
         typicalCargo[] = {"CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_LAT","CPC_JUN_B_AMIL_soldier_TL"};
 		editorSubcategory = "rhs_EdSubcat_apc";
-		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m113\data_90s\m113a3_01_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_90s\m113a3_02_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"};
+		HiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_01_lg_l_co.paa","rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_02_lg_l_co.paa","rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_03_lg_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"};
 		textureList[] = {};
 		VEHICLECARGOBIGAMIL
 	};
@@ -319,7 +319,7 @@
 		crew = "CPC_JUN_B_AMIL_soldier_crew";
         typicalCargo[] = {"CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_LAT","CPC_JUN_B_AMIL_soldier_TL"};
 		editorSubcategory = "rhs_EdSubcat_apc";
-		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m113\data_90s\m113a3_01_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_90s\m113a3_02_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"};
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_01_lg_h_90s_co.paa","rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_02_lg_h_90s_co.paa","rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_03_lg_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"};
 		textureList[] = {};
 		VEHICLECARGOBIGAMIL
 	};
@@ -611,5 +611,41 @@
 		author = "CPC Faction";
 		faction = "CPC_B_AMIL";
 		crew = "CPC_JUN_B_AMIL_soldier_HeliPilot";
+		VEHICLECARGOSMALLAMIL
+	};
+	class rhs_uh1h_hidf;
+	class CPC_JUN_B_AMIL_UH1H: rhs_uh1h_hidf
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_AMIL";
+		crew = "CPC_JUN_B_AMIL_soldier_HeliPilot";
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_hidf_grey_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_hidf_grey_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_hidf_grey_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+		VEHICLECARGOSMALLAMIL
+	};
+	class rhs_uh1h_hidf_gunship;
+	class CPC_JUN_B_AMIL_UH1H_gunship: rhs_uh1h_hidf_gunship
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_AMIL";
+		crew = "CPC_JUN_B_AMIL_soldier_HeliPilot";
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_hidf_grey_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_hidf_grey_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_hidf_grey_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+		VEHICLECARGOSMALLAMIL
+	};
+	class rhs_uh1h_hidf_unarmed;
+	class CPC_JUN_B_AMIL_UH1H_unarmed: rhs_uh1h_hidf_unarmed
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_AMIL";
+		crew = "CPC_JUN_B_AMIL_soldier_HeliPilot";
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_hidf_grey_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_hidf_grey_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_hidf_grey_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
 		VEHICLECARGOSMALLAMIL
 	};

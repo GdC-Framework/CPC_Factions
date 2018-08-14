@@ -69,8 +69,8 @@
 		displayName = "Rifleman (KAR98K)";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"rhssaf_vest_md99_woodland","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_kar98k","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_kar98k","Throw","Put"};
 		magazines[] = {"rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
@@ -88,6 +88,30 @@
 		magazines[] = {"rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_00Buck","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 	};
+	class CPC_JUN_I_AGUE_soldier_5 : CPC_JUN_I_AGUE_soldier_base_1
+	{
+		displayName = "Rifleman (M1 Garand)";
+		scope = 2;
+		scopeCurator = 2;
+		linkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[] = {"rhs_weap_m1garand_sa43","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m1garand_sa43","Throw","Put"};
+		magazines[] = {"rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		respawnMagazines[] = {"rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","rhsgref_8Rnd_762x63_M2B_M1rifle","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+	};
+	class CPC_JUN_I_AGUE_soldier_6 : CPC_JUN_I_AGUE_soldier_base_1
+	{
+		displayName = "Rifleman (M3A1)";
+		scope = 2;
+		scopeCurator = 2;
+		linkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[] = {"rhs_weap_m3a1","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m3a1","Throw","Put"};
+		magazines[] = {"rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		respawnMagazines[] = {"rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","rhsgref_30rnd_1143x23_M1911B_SMG","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+	};
 	class CPC_JUN_I_AGUE_soldier_GL : CPC_JUN_I_AGUE_soldier_base_1
 	{
 		displayName = "Grenadier";
@@ -99,11 +123,25 @@
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 	};
+	class CPC_JUN_I_AGUE_soldier_GL_2 : CPC_JUN_I_AGUE_soldier_base_1
+	{
+		displayName = "Grenadier (M79)";
+		scope = 2;
+		scopeCurator = 2;
+		linkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[] = {"rhs_weap_m79","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m79","Throw","Put"};
+		magazines[] = {"rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		respawnMagazines[] = {"rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","rhs_mag_M441_HE","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+	};
 	class CPC_JUN_I_AGUE_soldier_M : CPC_JUN_I_AGUE_soldier_base_1
 	{
 		displayName = "Marksman";
 		scope = 2;
 		scopeCurator = 2;
+		linkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhsgref_chestrig","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_m76_pso","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m76_pso","Throw","Put"};
 		magazines[] = {"rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};

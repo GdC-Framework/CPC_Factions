@@ -143,7 +143,7 @@ class cfgGroups
 					class Unit1
 					{
 						side = 2;
-						vehicle = "CPC_JUN_I_AGUE_soldier_4";
+						vehicle = "CPC_JUN_I_AGUE_soldier_6";
 						rank = "PRIVATE";
 						position[] = {2,0,0};
 					};
@@ -171,7 +171,7 @@ class cfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "CPC_JUN_I_AGUE_soldier_3";
+						vehicle = "CPC_JUN_I_AGUE_soldier_5";
 						rank = "PRIVATE";
 						position[] = {4,0,0};
 					};
@@ -255,7 +255,7 @@ class cfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "CPC_JUN_I_AGUE_soldier_3";
+						vehicle = "CPC_JUN_I_AGUE_soldier_5";
 						rank = "PRIVATE";
 						position[] = {6,0,0};
 					};

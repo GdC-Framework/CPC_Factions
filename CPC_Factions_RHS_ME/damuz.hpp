@@ -23,6 +23,16 @@
 		hiddenSelectionsTextures[] = {"\rhsgref\addons\rhsgref_infantry\data_gue\m93_3color_desert_co.paa"};
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
+	class CPC_ME_B_DAM_soldier_base_2 : CPC_ME_B_DAM_soldier_base
+	{
+		side = 1;
+		scope = 1;
+		scopeCurator = 0;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		uniformClass = "CPC_ME_Uniform_M93_sand_1_blufor";
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_ME\data\m93_desert01_co"};
+	};
 	class CPC_ME_B_DAM_soldier_1 : CPC_ME_B_DAM_soldier_base
 	{
 		displayName = "Rifleman";
@@ -165,7 +175,7 @@
 		attendant = 1;
 		backpack = "CPC_ME_Backpack_DAM_Medic";
 	};
-	class CPC_ME_B_DAM_soldier_crew : CPC_ME_B_DAM_soldier_base
+	class CPC_ME_B_DAM_soldier_crew : CPC_ME_B_DAM_soldier_base_2
 	{
 		displayName = "Crew";
 		scope = 2;
@@ -201,14 +211,14 @@
 		magazines[] = {"rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","SmokeShellBlue","SmokeShellBlue","rhs_mag_m67","rhs_mag_m67"};
 		respawnMagazines[] = {"rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","rhsgref_30rnd_556x45_m21","SmokeShellBlue","SmokeShellBlue","rhs_mag_m67","rhs_mag_m67"};
 	};
-	class CPC_ME_B_DAM_soldier_HeliPilot : CPC_ME_B_DAM_soldier_1
+	class CPC_ME_B_DAM_soldier_HeliPilot : CPC_ME_B_DAM_soldier_base_2
 	{
 		displayName = "Helicopter Pilot";
 		scope = 2;
 		scopeCurator = 2;
 		ACE_GForceCoef = 0.55;
-		linkedItems[] = {"rhssaf_vest_md99_woodland_radio","rhsusf_hgu56p_visor_green","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland_radio","rhsusf_hgu56p_visor_green","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"rhssaf_vest_md99_woodland_radio","rhsusf_hgu56p_visor","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland_radio","rhsusf_hgu56p_visor","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_akms","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_akms","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_m67"};
@@ -579,4 +589,41 @@
 		crew = "CPC_ME_B_DAM_soldier_1";
         typicalCargo[] = {"CPC_ME_B_DAM_soldier_1"};
 		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+	};
+	// Helicopters
+	class rhs_uh1h_hidf;
+	class CPC_ME_B_DAM_UH1H: rhs_uh1h_hidf
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_B_DAM";
+		crew = "CPC_ME_B_DAM_soldier_HeliPilot";
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_tan_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_tan_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_tan_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+		VEHICLECARGOSMALLDAM
+	};
+	class rhs_uh1h_hidf_gunship;
+	class CPC_ME_B_DAM_UH1H_gunship: rhs_uh1h_hidf_gunship
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_B_DAM";
+		crew = "CPC_ME_B_DAM_soldier_HeliPilot";
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_tan_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_tan_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_tan_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+		VEHICLECARGOSMALLDAM
+	};
+	class rhs_uh1h_hidf_unarmed;
+	class CPC_ME_B_DAM_UH1H_unarmed: rhs_uh1h_hidf_unarmed
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_B_DAM";
+		crew = "CPC_ME_B_DAM_soldier_HeliPilot";
+		hiddenSelectionsTextures[] = {"rhsgref\addons\rhsgref_air\uh1h\data\uh1h_tan_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\uh1h_tan_in_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\mlod_tan_co.paa","rhsgref\addons\rhsgref_air\uh1h\data\decals\blank_ca.paa"};
+		VEHICLECARGOSMALLDAM
 	};
