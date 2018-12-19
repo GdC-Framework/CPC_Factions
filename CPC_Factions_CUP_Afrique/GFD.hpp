@@ -30,8 +30,8 @@
 		displayName = "Rifleman (M16)";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -43,8 +43,8 @@
 		displayName = "Rifleman (M4)";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -69,8 +69,8 @@
 		displayName = "Rifleman (night)";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
 		respawnWeapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -82,8 +82,8 @@
 		displayName = "Grenadier";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A2_GL","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A2_GL","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -111,8 +111,8 @@
 		scopeCurator = 2;
 		icon = "iconManAT";
 		backpack = "CPC_Duala_Backpack_GFD_LAT";
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG18","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG18","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_RPG18_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -149,8 +149,8 @@
 		scopeCurator = 2;
 		icon = "iconManMG";
 		backpack = "CPC_Duala_Backpack_GFD_MG";
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -162,8 +162,8 @@
 		displayName = "AA Specialist";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla","Throw","Put"};
 		magazines[] = {"CUP_Igla_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -179,8 +179,8 @@
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "CPC_Duala_Backpack_GFD_Medic";
-		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
@@ -207,8 +207,8 @@
 		scopeCurator = 2;
 		icon = "iconManLeader";
 		asr_ai_level = 3;
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CPC_Duala_arifle_M4A1_ACOG","binocular","Throw","Put"};
 		respawnWeapons[] = {"CPC_Duala_arifle_M4A1_ACOG","binocular","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -275,8 +275,8 @@
 		canDeactivateMines = 1;
 		engineer = 1;
 		backpack = "CPC_Duala_Backpack_GFD_ENG";
-		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -416,7 +416,7 @@
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
 		hiddenSelectionsTextures[] = 
 		{
-			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_co.paa",
+			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_green_CO.paa",
 			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"
 		};
 		CPC_PREVIEW(CPC_Duala_B_GFD_M113);

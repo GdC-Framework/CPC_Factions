@@ -102,7 +102,7 @@ class CfgPatches {
 			
 		};
 		weapons[] = {
-			"CPC_Duala_Vest_Carrier_Tan",
+			"CPC_Afrique_Vest_PASGT_Tan",
 			"CPC_Duala_Uniform_NPFD_1",
 			"CPC_Duala_Booniehat_NPFD",
 			"CPC_Duala_Cappatrol_NPFD"

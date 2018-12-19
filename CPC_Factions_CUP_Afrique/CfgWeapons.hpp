@@ -3,37 +3,34 @@ class cfgWeapons
 	class UniformItem;
 	class ItemCore;
 	class HeadgearItem;
-	class VestItem;
 	
-	class CUP_Vest_RACS_Camo_Base;
-	class CPC_Duala_Vest_Carrier_Tan : CUP_Vest_RACS_Camo_Base
+	class CUP_Vest_Camo_Base;
+	class CUP_V_B_PASGT: CUP_Vest_Camo_Base
+	{
+		class ItemInfo;
+	};
+	class CPC_Afrique_Vest_PASGT_Tan: CUP_V_B_PASGT
 	{
 		scope = 2;
 		scopeArsenal = 2;
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
-		displayName = "Carrier Vest w/ pouches (Desert - no radio)";
-		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\data\ui\icon_v_carrier_vest_ca.paa";
-		model = "CPC\Factions\CPC_Factions_CUP_Afrique\CPC_Afrique_CarrierVest2.p3d";
+		displayName  = "PASGT Vest (Tan)";
 		hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[] = {
-			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
-			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
-		};
-		class ItemInfo : VestItem
+		"CPC\Factions\CPC_Factions_CUP_Afrique\data\GDF_vest_tan.paa", "CPC\Factions\CPC_Factions_CUP_Afrique\data\GDF_vest_acc_tan.paa"};
+
+		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo1", "camo2"};
 			hiddenSelectionsTextures[] = {
-				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
-				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
-			};
-			containerClass = "Supply90";
-			uniformModel = "CPC\Factions\CPC_Factions_CUP_Afrique\CPC_Afrique_CarrierVest2.p3d";
-			armor = 0;
-			passThrough = 1.0;
-			mass = 80;
-			#include "\CPC\Factions\hitpoints_vestheavy.h"
+			"CPC\Factions\CPC_Factions_CUP_Afrique\data\GDF_vest_tan.paa", "CPC\Factions\CPC_Factions_CUP_Afrique\data\GDF_vest_acc_tan.paa"};
 		};
+	};
+	class CPC_Duala_Vest_Carrier_Tan :CPC_Afrique_Vest_PASGT_Tan
+	{
+		scope = 0;
+		scopeArsenal = 0;
 	};
 	
 	class CPC_Duala_Uniform_GFD_desert: ItemCore
@@ -201,7 +198,7 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_RCO";
+				item = "CUP_optic_ACOG2";
 			};
 		};
 	};
