@@ -76,6 +76,7 @@
 		respawnWeapons[] = {"rhs_weap_akm","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_1);
 	};
 	class CPC_ME_I_REB_soldier_2 : CPC_ME_I_REB_soldier_base_1
 	{
@@ -86,6 +87,7 @@
 		respawnWeapons[] = {"rhs_weap_akms","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_2);
 	};
 	class CPC_ME_I_REB_soldier_3 : CPC_ME_I_REB_soldier_base_4
 	{
@@ -96,6 +98,7 @@
 		respawnWeapons[] = {"rhs_weap_pm63","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_3);
 	};
 	class CPC_ME_I_REB_soldier_4 : CPC_ME_I_REB_soldier_base_2
 	{
@@ -106,6 +109,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_4);
 	};
 	class CPC_ME_I_REB_soldier_GL : CPC_ME_I_REB_soldier_base_4
 	{
@@ -116,6 +120,7 @@
 		respawnWeapons[] = {"rhs_weap_akm_gp25","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_GL);
 	};
 	class CPC_ME_I_REB_soldier_M : CPC_ME_I_REB_soldier_base_2
 	{
@@ -126,6 +131,7 @@
 		respawnWeapons[] = {"rhs_weap_m76_pso","Throw","Put"};
 		magazines[] = {"rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","rhssaf_10Rnd_792x57_m76_tracer","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_M);
 	};
 	class CPC_ME_I_REB_soldier_LAT1 : CPC_ME_I_REB_soldier_base_1
 	{
@@ -137,6 +143,7 @@
 		respawnWeapons[] = {"rhs_weap_akm","rhs_weap_m72a7","Throw","Put"};
 		magazines[] = {"rhs_m72a7_mag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_m72a7_mag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_LAT1);
 	};
 	class CPC_ME_I_REB_soldier_LAT2 : CPC_ME_I_REB_soldier_base_1
 	{
@@ -148,6 +155,7 @@
 		respawnWeapons[] = {"rhs_weap_pm63","rhs_weap_rpg26","Throw","Put"};
 		magazines[] = {"rhs_rpg26_mag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_rpg26_mag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_LAT2);
 	};
 	class CPC_ME_I_REB_soldier_AT : CPC_ME_I_REB_soldier_base_2
 	{
@@ -160,6 +168,7 @@
 		respawnWeapons[] = {"rhs_weap_akms","rhs_weap_rpg7_pgo","Throw","Put"};
 		magazines[] = {"rhs_rpg7_PG7V_mag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_rpg7_PG7V_mag","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_AT);
 	};
 	class CPC_ME_I_REB_soldier_AAT : CPC_ME_I_REB_soldier_base_1
 	{
@@ -171,6 +180,7 @@
 		respawnWeapons[] = {"rhs_weap_akms","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_AAT);
 	};
 	class CPC_ME_I_REB_soldier_MG : CPC_ME_I_REB_soldier_base_3
 	{
@@ -185,6 +195,7 @@
 		respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
 		magazines[] = {"rhs_100Rnd_762x54mmR_green","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR_green","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_MG);
 	};
 	class CPC_ME_I_REB_soldier_AMG : CPC_ME_I_REB_soldier_base_1
 	{
@@ -196,6 +207,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_AMG);
 	};
 	class CPC_ME_I_REB_soldier_Medic : CPC_ME_I_REB_soldier_base_2
 	{
@@ -210,6 +222,7 @@
 		respawnWeapons[] = {"rhs_weap_akm","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_Medic);
 	};
 	class CPC_ME_I_REB_soldier_TL : CPC_ME_I_REB_soldier_base_2
 	{
@@ -223,6 +236,7 @@
 		respawnWeapons[] = {"rhs_weap_aks74","Binocular","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_TL);
 	};
 	class CPC_ME_I_REB_soldier_ENG : CPC_ME_I_REB_soldier_base_4
 	{
@@ -238,6 +252,7 @@
 		respawnWeapons[] = {"rhs_weap_akms","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
+		CPC_PREVIEW(CPC_ME_I_REB_soldier_ENG);
 	};
 	class CPC_ME_I_REB_gaz66_zu23 : rhsgref_ins_gaz66_zu23
 	{
@@ -263,6 +278,7 @@
 			class CargoTurret_02: CargoTurret_02{};
 		};
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_gaz66_zu23);
 	};
 	class CPC_ME_I_REB_gaz66o : rhsgref_ins_gaz66o
 	{
@@ -276,6 +292,7 @@
 		rhs_decalParameters[] = {"['Number', cTrucksGaz4NumberPlaces, 'Iraqi']"};
 		hiddenSelectionsTextures[] = {"\rhsafrf\addons\rhs_gaz66_camo\data\gaz66_sand_co.paa","\rhsafrf\addons\rhs_gaz66\data\tent_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_kung_sand_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_ap2kung_sand_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_repkung_sand_co.paa"};
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_gaz66o);
 	};
 	class CPC_ME_I_REB_gaz66o_flat : rhsgref_ins_gaz66o_flat
 	{
@@ -289,6 +306,7 @@
 		rhs_decalParameters[] = {"['Number', cTrucksGaz4NumberPlaces, 'Iraqi']"};
 		hiddenSelectionsTextures[] = {"\rhsafrf\addons\rhs_gaz66_camo\data\gaz66_sand_co.paa","\rhsafrf\addons\rhs_gaz66\data\tent_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_kung_sand_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_ap2kung_sand_co.paa","\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_repkung_sand_co.paa"};
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_gaz66o_flat);
 	};
 	class CPC_ME_I_REB_uaz_open : rhsgref_ins_uaz_open
 	{
@@ -302,6 +320,7 @@
 		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Iraqi']"};
 		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa"};
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_uaz_open);
 	};
 	class CPC_ME_I_REB_uaz_dshkm : RHS_UAZ_DShKM_Base
 	{
@@ -330,8 +349,8 @@
 			class MainTurret: MainTurret {gunnerType="CPC_ME_I_REB_soldier_2";};
 			class CargoTurret_01: CargoTurret_01 {};
 		};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\car.jpg";
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_uaz_dshkm);
 	};
 	class CPC_ME_I_REB_uaz_spg9 : RHS_UAZ_SPG9_Base
 	{
@@ -360,8 +379,8 @@
 			class MainTurret: MainTurret {gunnerType="CPC_ME_I_REB_soldier_4";};
 			class CargoTurret_01: CargoTurret_01 {};
 		};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\car.jpg";
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_uaz_spg9);
 	};
 	class CPC_ME_I_REB_ZODIAC : B_Boat_Transport_01_F
 	{
@@ -373,6 +392,7 @@
 		crew = "CPC_ME_I_REB_soldier_1";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_4"};
 		VEHICLECARGOREB
+		CPC_PREVIEW(CPC_ME_I_REB_ZODIAC);
 	};
 	
 	// Statics
@@ -385,7 +405,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_DSHKM);
 	};
 	class CPC_ME_I_REB_DSHKM_MiniTriPod : rhs_DSHkM_Mini_TriPod_base
 	{
@@ -396,7 +416,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_DSHKM_MiniTriPod);
 	};
 	class CPC_ME_I_REB_M2 : rhs_m2staticmg_base
 	{
@@ -407,7 +427,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_3";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_M2);
 	};
 	class CPC_ME_I_REB_M2_MiniTriPod : RHS_M2StaticMG_MiniTripod_base
 	{
@@ -418,7 +438,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_M2_MiniTriPod);
 	};
 	class CPC_ME_I_REB_SPG9 : rhs_SPG9_base
 	{
@@ -429,7 +449,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_SPG9);
 	};
 	class CPC_ME_I_REB_SPG9M : rhs_SPG9M_base
 	{
@@ -440,7 +460,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_SPG9M);
 	};
 	class CPC_ME_I_REB_ZU23 : RHS_ZU23_base
 	{
@@ -451,7 +471,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_ZU23);
 	};
 	class CPC_ME_I_REB_Metis : rhs_Metis_Base
 	{
@@ -462,7 +482,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_3";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_Metis);
 	};
 	class CPC_ME_I_REB_D30 : rhs_D30_base
 	{
@@ -473,7 +493,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_D30);
 	};
 	class CPC_ME_I_REB_D30_AT : rhs_D30_AT_base
 	{
@@ -484,7 +504,7 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_D30_AT);
 	};
 	class CPC_ME_I_REB_2b14_82mm : rhs_2b14_82mm_Base
 	{
@@ -495,5 +515,5 @@
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
         typicalCargo[] = {"CPC_ME_I_REB_soldier_1"};
-		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\Turret.jpg";
+		CPC_PREVIEW(CPC_ME_I_REB_2b14_82mm);
 	};

@@ -143,7 +143,7 @@ class Extended_Init_Eventhandlers
 	};
 };
 
-
+#define CPC_PREVIEW(x) 	editorPreview = \CPC\Factions\CPC_Factions_RHS_Jungle\data\preview\##x##.jpg
 
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
