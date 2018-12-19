@@ -145,9 +145,9 @@ class CfgVehicles
 		scopeArsenal = 0;
 		class TransportMagazines
 		{
-			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+			class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M
 			{
-				magazine = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				magazine = "CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M";
 				count = 4;
 			};
 		};
@@ -226,6 +226,20 @@ class CfgVehicles
 			{
 				magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 				count = 3;
+			};
+		};
+	};
+	class CUP_B_AssaultPack_Coyote;
+	class CPC_Afrique_Backpack_GFD_SF_MG:CUP_B_AssaultPack_Coyote
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		class TransportMagazines
+		{
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count = 2;
 			};
 		};
 	};

@@ -14,7 +14,7 @@
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_I_Pirate";
-		identityTypes[] = {"LanguageGRE_F","Head_African",""};
+		identityTypes[] = {"LanguageFRE_F","Head_African",""};
 		model = "\A3\Characters_F\Civil\c_poloshirt.p3d";
 		uniformClass = "CPC_Afrique_Clothes_Pirate_1";
 		Items[] = {"FirstAidKit"};
@@ -58,7 +58,7 @@
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_I_Pirate";
-		identityTypes[] = {"LanguageGRE_F","Head_African",""};
+		identityTypes[] = {"LanguageFRE_F","Head_African",""};
 		model = "\A3\Characters_F\Civil\c_poloshirt.p3d";
 		uniformClass = "CPC_Afrique_Clothes_Pirate_2";
 		Items[] = {"FirstAidKit"};
@@ -102,7 +102,7 @@
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_I_Pirate";
-		identityTypes[] = {"LanguageGRE_F","Head_African",""};
+		identityTypes[] = {"LanguageFRE_F","Head_African",""};
 		model = "\A3\Characters_F\Civil\c_poloshirt.p3d";
 		uniformClass = "CPC_Afrique_Clothes_Pirate_3";
 		Items[] = {"FirstAidKit"};
@@ -145,6 +145,7 @@ class CPC_Afrique_I_pirate_soldier_TL : CPC_Afrique_I_pirate_base_1
 		respawnWeapons[] = {"CUP_arifle_AKS74U","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_TL);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_1 : CPC_Afrique_I_pirate_base_2
@@ -158,6 +159,7 @@ class CPC_Afrique_I_pirate_soldier_1 : CPC_Afrique_I_pirate_base_2
 		respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_1);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_2 : CPC_Afrique_I_pirate_base_3
@@ -171,6 +173,7 @@ class CPC_Afrique_I_pirate_soldier_2 : CPC_Afrique_I_pirate_base_3
 		respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_2);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_3 : CPC_Afrique_I_pirate_base_3
@@ -184,11 +187,12 @@ class CPC_Afrique_I_pirate_soldier_3 : CPC_Afrique_I_pirate_base_3
 		respawnWeapons[] = {"CPC_Afrique_arifle_AK74_PSO","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_3);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_MG : CPC_Afrique_I_pirate_base_2
 	{
-		displayName = "Machine gunner (PKM)";
+		displayName = "Machinegunner (PKM)";
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManMG";
@@ -199,11 +203,12 @@ class CPC_Afrique_I_pirate_soldier_MG : CPC_Afrique_I_pirate_base_2
 		respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_MG);
 	};
 		
 class CPC_Afrique_I_pirate_soldier_AR : CPC_Afrique_I_pirate_base_1
 	{
-		displayName = "AutoRifleman (RPK74)";
+		displayName = "Auto. Rifleman (RPK74)";
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManMG";
@@ -213,6 +218,7 @@ class CPC_Afrique_I_pirate_soldier_AR : CPC_Afrique_I_pirate_base_1
 		respawnWeapons[] = {"CUP_arifle_RPK74_45","Throw","Put"};
 		magazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_AR);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_GL : CPC_Afrique_I_pirate_base_1
@@ -236,6 +242,7 @@ class CPC_Afrique_I_pirate_soldier_GL : CPC_Afrique_I_pirate_base_1
 		"CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M",
 		"CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M",
 		"SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_GL);
 	};
 
 class CPC_Afrique_I_pirate_soldier_AT : CPC_Afrique_I_pirate_base_2
@@ -251,6 +258,7 @@ class CPC_Afrique_I_pirate_soldier_AT : CPC_Afrique_I_pirate_base_2
 		respawnWeapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_PG7V_M","CUP_OG7_M","CUP_OG7_M","CUP_PG7V_M"};
 		respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_PG7V_M","CUP_OG7_M","CUP_OG7_M","CUP_PG7V_M"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_AT);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_ENG : CPC_Afrique_I_pirate_base_3
@@ -269,6 +277,7 @@ class CPC_Afrique_I_pirate_soldier_ENG : CPC_Afrique_I_pirate_base_3
 		respawnWeapons[] = {"CUP_arifle_AKS74U","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_ENG);
 	};
 	
 class CPC_Afrique_I_pirate_soldier_Medic : CPC_Afrique_I_pirate_base_3
@@ -286,4 +295,5 @@ class CPC_Afrique_I_pirate_soldier_Medic : CPC_Afrique_I_pirate_base_3
 		respawnWeapons[] = {"CUP_arifle_AKS74U","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Afrique_I_pirate_soldier_Medic);
 	};

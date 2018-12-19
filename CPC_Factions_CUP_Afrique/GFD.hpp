@@ -14,7 +14,7 @@
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
-		identityTypes[] = {"LanguageGRE_F","Head_African",""};
+		identityTypes[] = {"LanguageFRE_F","Head_African",""};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_crewman.p3d";
 		uniformClass = "CPC_Duala_Uniform_GFD_desert";
 		Items[] = {"FirstAidKit"};
@@ -36,6 +36,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_1);
 	};
 	class CPC_Duala_B_GFD_soldier_2 : CPC_Duala_B_GFD_soldier_base
 	{
@@ -48,6 +49,7 @@
 		respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_2);
 	};
 	class CPC_Duala_B_GFD_soldier_light : CPC_Duala_B_GFD_soldier_base
 	{
@@ -60,6 +62,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_light);
 	};
 	class CPC_Duala_B_GFD_soldier_night : CPC_Duala_B_GFD_soldier_base
 	{
@@ -72,6 +75,7 @@
 		respawnWeapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_night);
 	};
 	class CPC_Duala_B_GFD_soldier_GL : CPC_Duala_B_GFD_soldier_base
 	{
@@ -84,6 +88,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2_GL","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_GL);
 	};	
 	class CPC_Duala_B_GFD_soldier_M : CPC_Duala_B_GFD_soldier_base
 	{
@@ -97,6 +102,7 @@
 		respawnWeapons[] = {"CPC_Duala_arifle_FNFAL_railed_SandBshortdot","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_M);
 	};
 	class CPC_Duala_B_GFD_soldier_LAT : CPC_Duala_B_GFD_soldier_base
 	{
@@ -111,6 +117,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG18","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_RPG18_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_RPG18_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_LAT);
 	};
 	class CPC_Duala_B_GFD_soldier_AT : CPC_Duala_B_GFD_soldier_base
 	{
@@ -125,6 +132,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2","CPC_Duala_launch_RPG7V_PGO7V","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_PG7VM_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_PG7VM_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_AT);
 	};
 	class CPC_Duala_B_GFD_soldier_AAT : CPC_Duala_B_GFD_soldier_1
 	{
@@ -132,6 +140,7 @@
 		scope = 2;
 		scopeCurator = 2;
 		backpack = "CPC_Duala_Backpack_GFD_AT";
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_AAT);
 	};
 	class CPC_Duala_B_GFD_soldier_MG : CPC_Duala_B_GFD_soldier_base
 	{
@@ -146,6 +155,7 @@
 		respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_MG);
 	};
 	class CPC_Duala_B_GFD_soldier_AA : CPC_Duala_B_GFD_soldier_base
 	{
@@ -158,6 +168,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla","Throw","Put"};
 		magazines[] = {"CUP_Igla_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_Igla_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_AA);
 	};
 	class CPC_Duala_B_GFD_soldier_Medic : CPC_Duala_B_GFD_soldier_base
 	{
@@ -174,6 +185,7 @@
 		respawnWeapons[] = {"CUP_arifle_M16A2","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","SmokeShell","SmokeShell"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_Medic);
 	};
 	class CPC_Duala_B_GFD_soldier_crew : CPC_Duala_B_GFD_soldier_base
 	{
@@ -186,6 +198,7 @@
 		respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_crew);
 	};
 	class CPC_Duala_B_GFD_soldier_TL : CPC_Duala_B_GFD_soldier_base
 	{
@@ -196,10 +209,11 @@
 		asr_ai_level = 3;
 		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_2","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"CPC_Duala_arifle_M4A1_black_ACOG","binocular","Throw","Put"};
-		respawnWeapons[] = {"CPC_Duala_arifle_M4A1_black_ACOG","binocular","Throw","Put"};
+		weapons[] = {"CPC_Duala_arifle_M4A1_ACOG","binocular","Throw","Put"};
+		respawnWeapons[] = {"CPC_Duala_arifle_M4A1_ACOG","binocular","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_TL);
 	};	
 	class CPC_Duala_B_GFD_soldier_Officer : CPC_Duala_B_GFD_soldier_base
 	{
@@ -215,6 +229,7 @@
 		respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9","binocular","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_Officer);
 	};
 	class CPC_Duala_B_GFD_soldier_HeliPilot : CPC_Duala_B_GFD_soldier_base
 	{
@@ -234,6 +249,7 @@
 		respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_HeliPilot);
 	};
 	class CPC_Duala_B_GFD_soldier_Pilot : CPC_Duala_B_GFD_soldier_HeliPilot
 	{
@@ -247,6 +263,7 @@
 		respawnWeapons[] = {"CUP_hgun_M9","Throw","Put"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_Pilot);
 	};
 	class CPC_Duala_B_GFD_soldier_ENG : CPC_Duala_B_GFD_soldier_base
 	{
@@ -264,6 +281,87 @@
 		respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_ENG);
+	};
+	
+	// Special forces
+	
+	class CPC_Duala_B_GFD_soldier_SF_1 : CPC_Duala_B_GFD_soldier_base
+	{
+		displayName = "Rifleman (M4A3)";
+		scope = 2;
+		scopeCurator = 2;
+		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
+		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		weapons[] = {"CPC_Afrique_arifle_M4A3_black_CCO_laser","CUP_hgun_M9","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_arifle_M4A3_black_CCO_laser","CUP_hgun_M9","Throw","Put"};
+		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_SF_1);
+	};
+	class CPC_Duala_B_GFD_soldier_SF_TL : CPC_Duala_B_GFD_soldier_base
+	{
+		displayName = "Team leader";
+		scope = 2;
+		scopeCurator = 2;
+		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
+		icon = "iconManLeader";
+		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","CUP_H_CZ_Helmet07","G_Shades_Black","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest_3","CUP_H_CZ_Helmet07","G_Shades_Black","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		weapons[] = {"CPC_Afrique_arifle_M4A3_black_ACOG_laser","CUP_hgun_M9","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_arifle_M4A3_black_ACOG_laser","CUP_hgun_M9","Throw","Put"};
+		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_SF_TL);
+	};
+	class CPC_Duala_B_GFD_soldier_SF_MG : CPC_Duala_B_GFD_soldier_base
+	{
+		displayName = "Machinegunner (M60E4)";
+		scope = 2;
+		scopeCurator = 2;
+		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
+		icon = "iconManMG";
+		backpack = "CPC_Afrique_Backpack_GFD_SF_MG";
+		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","G_Shades_Red","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","G_Shades_Red","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		weapons[] = {"CPC_Afrique_lmg_M60E4_CCO","CUP_hgun_M9","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_lmg_M60E4_CCO","CUP_hgun_M9","Throw","Put"};
+		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_SF_MG);
+	};
+	class CPC_Duala_B_GFD_soldier_SF_Medic : CPC_Duala_B_GFD_soldier_base
+	{
+		displayName = "Medic";
+		scope = 2;
+		scopeCurator = 2;
+		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
+		picture = "pictureHeal";
+		icon = "iconManMedic";
+		attendant = 1;
+		backpack = "CPC_Duala_Backpack_GFD_Medic";
+		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","CUP_FR_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","CUP_FR_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		weapons[] = {"CPC_Afrique_arifle_M4A1_black_CCO_laser","CUP_hgun_M9","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_arifle_M4A1_black_CCO_laser","CUP_hgun_M9","Throw","Put"};
+		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_SF_Medic);
+	};
+	class CPC_Duala_B_GFD_soldier_SF_M : CPC_Duala_B_GFD_soldier_base
+	{
+		displayName = "Marksman";
+		scope = 2;
+		scopeCurator = 2;
+		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
+		linkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		respawnLinkedItems[] = {"CUP_V_I_RACS_Carrier_Vest","CUP_H_CZ_Helmet07","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio","CUP_NVG_PVS14"};
+		weapons[] = {"CPC_Afrique_srifle_L129A1_HG_Leupold_laser","CUP_hgun_M9","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_srifle_L129A1_HG_Leupold_laser","CUP_hgun_M9","Throw","Put"};
+		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","CUP_20Rnd_762x51_L129_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_SF_M);
 	};
 	
 	class CUP_BRDM2_Base;
@@ -277,6 +375,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_crew";
         typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
         hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\sla_brdm2_01_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_BRDM2);
 	};
 	class CUP_BRDM2_HQ_Base;
 	class CPC_Duala_B_GFD_BRDM2_HQ : CUP_BRDM2_HQ_Base
@@ -289,6 +388,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_crew";
         typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
         hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\sla_brdm2_01_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_BRDM2_HQ);
 	};
 	class CUP_T55_Base;
 	class CPC_Duala_B_GFD_T55 : CUP_T55_Base
@@ -302,6 +402,7 @@
         typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
 		hiddenSelections[] ={"Camo1","Camo2"};
 		hiddenSelectionsTextures[] ={"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_T55);
 	};
 	class CUP_M113_Base;
 	class CPC_Duala_B_GFD_M113 : CUP_M113_Base
@@ -318,6 +419,7 @@
 			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_co.paa",
 			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"
 		};
+		CPC_PREVIEW(CPC_Duala_B_GFD_M113);
 	};
 	class CUP_ZSU23_Base;
 	class CPC_Duala_B_GFD_ZSU23 : CUP_ZSU23_Base
@@ -335,6 +437,7 @@
 			"CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\zsu_02_sla_co.paa",
 			"CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\zsu_03_sla_co.paa"
 		};	
+		CPC_PREVIEW(CPC_Duala_B_GFD_ZSU23);
 	};
 	class CUP_Su25_base;
 	class CPC_Duala_B_GFD_Su25 : CUP_Su25_base
@@ -347,6 +450,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_Pilot";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_Pilot"};
 		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Su25\data\textures\su25_body1_sla1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Su25\data\textures\su25_body2_sla1_co.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_Su25);
 	};
 	class CUP_B_SA330_Puma_HC1_BAF;
 	class CPC_Duala_B_GFD_SA330 : CUP_B_SA330_Puma_HC1_BAF
@@ -359,6 +463,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_HeliPilot";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_CUP_Afrique\data\330_skin00x_racs.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_SA330);
 	};
 	class CUP_UH1H_base;
 	class CPC_Duala_B_GFD_UH1H : CUP_UH1H_base
@@ -376,8 +481,26 @@
 			"CUP\AirVehicles\CUP_AirVehicles_UH1H\data\UH1D_in_CO.paa",
 			"CUP\AirVehicles\CUP_AirVehicles_UH1H\data\default_co.paa"
 		};
+		CPC_PREVIEW(CPC_Duala_B_GFD_UH1H);
 	};
-	class CUP_LR_Transport_Base;
+	
+	class Car;
+	class Car_F: Car
+	{
+		class AnimationSources;
+	};
+	class CUP_LR_Base: Car_F {};
+	class CUP_LR_Transport_Base: CUP_LR_Base
+	{
+		class AnimationSources: AnimationSources
+		{
+			class selection_jerry;
+			class selection_antenna;
+			class selection_box;
+			class selection_steps;
+			class selection_bar;
+		};
+	};
 	class CPC_Duala_B_GFD_LR_Transport : CUP_LR_Transport_Base
 	{
 		side = 1;
@@ -392,8 +515,42 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_special_acr_co.paa"
 		};
+		class AnimationSources : AnimationSources
+		{	
+			class selection_jerry: selection_jerry
+			{
+				initPhase=1;		
+			};	
+			class selection_antenna: selection_antenna
+			{
+				initPhase=1;		
+			};	
+			class selection_box: selection_box
+			{
+				initPhase=1;			
+			};	
+			class selection_steps: selection_steps
+			{
+				initPhase=1;	
+			};
+			class selection_bar: selection_bar
+			{
+				initPhase=1;			
+			};			
+		};	
+		CPC_PREVIEW(CPC_Duala_B_GFD_LR_Transport);
 	};
-	class CUP_LR_MG_Base;
+	class CUP_LR_MG_Base: CUP_LR_Base
+	{
+		class AnimationSources: AnimationSources
+		{
+			class selection_jerry;
+			class selection_antenna;
+			class selection_box;
+			class selection_steps;
+			class selection_bar;
+		};
+	};
 	class CPC_Duala_B_GFD_LR_MG : CUP_LR_MG_Base
 	{
 		side = 1;
@@ -408,8 +565,41 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_special_acr_co.paa"
 		};
+		class AnimationSources : AnimationSources
+		{
+			class selection_jerry: selection_jerry
+			{
+				initPhase=1;
+			};
+			class selection_antenna: selection_antenna
+			{
+				initPhase=1;
+			};
+			class selection_box: selection_box
+			{
+				initPhase=1;
+			};
+			class selection_steps: selection_steps
+			{
+				initPhase=1;
+			};
+			class selection_bar: selection_bar
+			{
+				initPhase=1;
+			};
+		};
+		CPC_PREVIEW(CPC_Duala_B_GFD_LR_MG);
 	};
-	class CUP_LR_Ambulance_Base;
+	class CUP_LR_Ambulance_Base: CUP_LR_Base
+	{
+		class AnimationSources: AnimationSources
+		{
+			class selection_jerry;
+			class selection_antenna;
+			class selection_steps;
+			class selection_bar;
+		};
+	};
 	class CPC_Duala_B_GFD_LR_Ambulance : CUP_LR_Ambulance_Base
 	{
 		side = 1;
@@ -425,6 +615,26 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_amb_ext_co.paa",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_special_acr_co.paa"
 		};
+		class AnimationSources : AnimationSources
+		{
+			class selection_jerry: selection_jerry
+			{
+				initPhase=1;
+			};
+			class selection_antenna: selection_antenna
+			{
+				initPhase=1;
+			};
+			class selection_steps: selection_steps
+			{
+				initPhase=1;
+			};
+			class selection_bar: selection_bar
+			{
+				initPhase=1;
+			};
+		};
+		CPC_PREVIEW(CPC_Duala_B_GFD_LR_Ambulance);
 	};
 	class CUP_Ural_ZU23_Base;
 	class CPC_Duala_B_GFD_Ural_ZU23 : CUP_Ural_ZU23_Base
@@ -441,6 +651,7 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa"
 		};
+		CPC_PREVIEW(CPC_Duala_B_GFD_Ural_ZU23);
 	};
 	class CUP_BTR40_MG_Base;
 	class CPC_Duala_B_GFD_BTR40_MG : CUP_BTR40_MG_Base
@@ -453,6 +664,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1"};
         hiddenSelectionsTextures[] ={"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40ext_co.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_BTR40_MG);
 	};
 	class CUP_BTR40_Base;
 	class CPC_Duala_B_GFD_BTR40 : CUP_BTR40_Base
@@ -465,6 +677,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1"};
         hiddenSelectionsTextures[] ={"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40ext_co.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_BTR40);
 	};
 	class CUP_BTR60_Base;
 	class CPC_Duala_B_GFD_BTR60 : CUP_BTR60_Base
@@ -477,6 +690,7 @@
 		crew = "CPC_Duala_B_GFD_soldier_crew";
         typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
         hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\btr60_sla_1_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\btr60_sla_2_co.paa"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_BTR60);
 	};
 	
 	class CUP_M2StaticMG_base;
@@ -489,6 +703,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_M2StaticMG);
 	};
 	class CUP_M2StaticMG_MiniTripod_base;
 	class CPC_Duala_B_GFD_M2StaticMG_MiniTripod : CUP_M2StaticMG_MiniTripod_base
@@ -500,6 +715,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_M2StaticMG_MiniTripod);
 	};
 	class CUP_AGS_base;
 	class CPC_Duala_B_GFD_AGS : CUP_AGS_base
@@ -511,6 +727,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_AGS);
 	};
 	class CUP_SPG9_base;
 	class CPC_Duala_B_GFD_SPG9 : CUP_SPG9_base
@@ -522,6 +739,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_SPG9);
 	};
 	class CUP_2b14_82mm_Base;
 	class CPC_Duala_B_GFD_2b14_82mm : CUP_2b14_82mm_Base
@@ -533,6 +751,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_2b14_82mm);
 	};
 	class CUP_D30_base;
 	class CPC_Duala_B_GFD_D30 : CUP_D30_base
@@ -544,6 +763,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_D30);
 	};
 	class CUP_DSHKM_base;
 	class CPC_Duala_B_GFD_DSHKM : CUP_DSHKM_base
@@ -555,6 +775,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_DSHKM);
 	};
 	class CUP_DSHKM_MiniTripod_base;
 	class CPC_Duala_B_GFD_DSHKM_MiniTripod : CUP_DSHKM_MiniTripod_base
@@ -566,6 +787,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		CPC_PREVIEW(CPC_Duala_B_GFD_DSHKM_MiniTripod);
 	};
 	class CUP_V3S_Open_Base;
 	class CPC_Afrique_B_GFD_V3S_Open : CUP_V3S_Open_Base
@@ -583,8 +805,8 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co"
-		};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Open_TKG.jpg";		
+		};	
+		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Open);
 	};
 	class CUP_V3S_Covered_Base;
 	class CPC_Afrique_B_GFD_V3S_Covered : CUP_V3S_Covered_Base
@@ -604,7 +826,7 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co"
 		};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Covered_TKG.jpg";	
+		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Covered);
 	};
 	class CUP_V3S_Refuel_Base;
 	class CPC_Afrique_B_GFD_V3S_Refuel : CUP_V3S_Refuel_Base
@@ -624,7 +846,7 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_refuel_egue_co"
 		};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Refuel_TKG.jpg";
+		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Refuel);
 	};
 	class CUP_V3S_Repair_Base;
 	class CPC_Afrique_B_GFD_V3S_Repair : CUP_V3S_Repair_Base
@@ -644,5 +866,5 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_repair_egue_co"
 		};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Repair_TKG.jpg";
+		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Repair);
 	};

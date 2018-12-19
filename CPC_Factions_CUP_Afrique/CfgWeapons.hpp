@@ -12,7 +12,7 @@ class cfgWeapons
 		scopeArsenal = 2;
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
-		displayName = "RACS Carrier Vest (Variant, no radio)";
+		displayName = "Carrier Vest w/ pouches (Desert - no radio)";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\data\ui\icon_v_carrier_vest_ca.paa";
 		model = "CPC\Factions\CPC_Factions_CUP_Afrique\CPC_Afrique_CarrierVest2.p3d";
 		hiddenSelections[] = {"camo1", "camo2"};
@@ -191,8 +191,8 @@ class cfgWeapons
 		};
 	};
 	
-	class CUP_arifle_M4A1_black;
-	class CPC_Duala_arifle_M4A1_black_ACOG: CUP_arifle_M4A1_black
+	class CUP_arifle_M4A1;
+	class CPC_Duala_arifle_M4A1_ACOG: CUP_arifle_M4A1
 	{
 		scope = 1;
 		author = "CPC Faction";
@@ -202,6 +202,101 @@ class cfgWeapons
 			{
 				slot = "CUP_PicatinnyTopMountM4";
 				item = "CUP_optic_RCO";
+			};
+		};
+	};
+	
+	class CUP_arifle_M4A3_black;
+	class CPC_Afrique_arifle_M4A3_black_CCO_laser: CUP_arifle_M4A3_black
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM4";
+				item = "CUP_optic_CompM2_Black";
+			};
+			class LinkedItemSide
+			{
+				slot = "CUP_PicatinnySideMountM4";
+				item = "CUP_acc_ANPEQ_2_grey";
+			};
+		};
+	};
+	class CPC_Afrique_arifle_M4A3_black_ACOG_laser: CUP_arifle_M4A3_black
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM4";
+				item = "CUP_optic_ACOG";
+			};
+			class LinkedItemSide
+			{
+				slot = "CUP_PicatinnySideMountM4";
+				item = "CUP_acc_ANPEQ_2_grey";
+			};
+		};
+	};
+	class CUP_arifle_M4A1_black;
+	class CPC_Afrique_arifle_M4A1_black_CCO_laser: CUP_arifle_M4A1_black
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM4";
+				item = "CUP_optic_CompM2_Black";
+			};
+			class LinkedItemSide
+			{
+				slot = "CUP_PicatinnySideMountM4";
+				item = "CUP_acc_ANPEQ_2_grey";
+			};
+		};
+	};
+	class CUP_lmg_M60E4;
+	class CPC_Afrique_lmg_M60E4_CCO: CUP_lmg_M60E4
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM60";
+				item = "CUP_optic_CompM2_Black";
+			};
+		};
+	};
+	class CUP_srifle_L129A1_HG;
+	class CPC_Afrique_srifle_L129A1_HG_Leupold_laser: CUP_srifle_L129A1_HG
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountL129";
+				item = "CUP_optic_Leupold_VX3";
+			};
+			class LinkedItemSide
+			{
+				slot = "CUP_PicatinnySideMountL129";
+				item = "CUP_acc_ANPEQ_2_grey";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "CUP_PicatinnyUnderMountL129";
+				item = "bipod_02_F_blk";
 			};
 		};
 	};

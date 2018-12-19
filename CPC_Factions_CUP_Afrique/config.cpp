@@ -21,6 +21,11 @@ class CfgPatches {
 			"CPC_Duala_B_GFD_soldier_HeliPilot",
 			"CPC_Duala_B_GFD_soldier_Pilot",
 			"CPC_Duala_B_GFD_soldier_ENG",
+			"CPC_Duala_B_GFD_soldier_SF_1",
+			"CPC_Duala_B_GFD_soldier_SF_TL",
+			"CPC_Duala_B_GFD_soldier_SF_MG",
+			"CPC_Duala_B_GFD_soldier_SF_Medic",
+			"CPC_Duala_B_GFD_soldier_SF_M",
 			"CPC_Duala_B_GFD_BRDM2",
 			"CPC_Duala_B_GFD_BRDM2_HQ",
 			"CPC_Duala_B_GFD_T55",
@@ -193,6 +198,8 @@ class Extended_Init_Eventhandlers
 		CPC_Afrique_I_pirate_base_3_init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};";
 	};
 };
+
+#define CPC_PREVIEW(x) 	editorPreview = \CPC\Factions\CPC_Factions_CUP_Afrique\data\preview\##x##.jpg
 
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"

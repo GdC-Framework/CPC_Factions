@@ -246,6 +246,55 @@ class cfgGroups
 						position[] = {3,0,0};
 					};
 				};
+				class CPC_B_GFD_SFTeam
+				{
+					name = "SF Team";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_B_GFD"; side = 1;
+					rarityGroup = 0.05;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "CPC_Duala_B_GFD_soldier_SF_TL";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "CPC_Duala_B_GFD_soldier_SF_Medic";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "CPC_Duala_B_GFD_soldier_SF_1";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "CPC_Duala_B_GFD_soldier_SF_MG";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "CPC_Duala_B_GFD_soldier_SF_M";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "CPC_Duala_B_GFD_soldier_SF_1";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+				};
 			};
 
 			class Motorized
