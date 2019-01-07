@@ -397,7 +397,7 @@
 	{
 		side = 0;
 		scope = 2;
-		displayName = "Ural (Green)(Open)";
+		displayName = "Ural (Green) (Open)";
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";

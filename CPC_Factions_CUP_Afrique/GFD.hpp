@@ -494,10 +494,6 @@
 	{
 		class AnimationSources: AnimationSources
 		{
-			class selection_jerry;
-			class selection_antenna;
-			class selection_box;
-			class selection_steps;
 			class selection_bar;
 		};
 	};
@@ -517,22 +513,6 @@
 		};
 		class AnimationSources : AnimationSources
 		{	
-			class selection_jerry: selection_jerry
-			{
-				initPhase=1;		
-			};	
-			class selection_antenna: selection_antenna
-			{
-				initPhase=1;		
-			};	
-			class selection_box: selection_box
-			{
-				initPhase=1;			
-			};	
-			class selection_steps: selection_steps
-			{
-				initPhase=1;	
-			};
 			class selection_bar: selection_bar
 			{
 				initPhase=1;			
@@ -544,10 +524,6 @@
 	{
 		class AnimationSources: AnimationSources
 		{
-			class selection_jerry;
-			class selection_antenna;
-			class selection_box;
-			class selection_steps;
 			class selection_bar;
 		};
 	};
@@ -566,27 +542,11 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_special_acr_co.paa"
 		};
 		class AnimationSources : AnimationSources
-		{
-			class selection_jerry: selection_jerry
-			{
-				initPhase=1;
-			};
-			class selection_antenna: selection_antenna
-			{
-				initPhase=1;
-			};
-			class selection_box: selection_box
-			{
-				initPhase=1;
-			};
-			class selection_steps: selection_steps
-			{
-				initPhase=1;
-			};
+		{	
 			class selection_bar: selection_bar
 			{
-				initPhase=1;
-			};
+				initPhase=1;			
+			};			
 		};
 		CPC_PREVIEW(CPC_Duala_B_GFD_LR_MG);
 	};
@@ -594,9 +554,6 @@
 	{
 		class AnimationSources: AnimationSources
 		{
-			class selection_jerry;
-			class selection_antenna;
-			class selection_steps;
 			class selection_bar;
 		};
 	};
@@ -616,23 +573,11 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_special_acr_co.paa"
 		};
 		class AnimationSources : AnimationSources
-		{
-			class selection_jerry: selection_jerry
-			{
-				initPhase=1;
-			};
-			class selection_antenna: selection_antenna
-			{
-				initPhase=1;
-			};
-			class selection_steps: selection_steps
-			{
-				initPhase=1;
-			};
+		{	
 			class selection_bar: selection_bar
 			{
-				initPhase=1;
-			};
+				initPhase=1;			
+			};			
 		};
 		CPC_PREVIEW(CPC_Duala_B_GFD_LR_Ambulance);
 	};
