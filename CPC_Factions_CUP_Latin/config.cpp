@@ -89,7 +89,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = 
 		{
-			"CPC_Factions_CUP_Main"
+			"CPC_Factions_CUP_Main",
 			"A3_Characters_F"
 		};
 	};
