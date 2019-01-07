@@ -11,7 +11,7 @@ class cfgGroups
 				class CPC_B_GFD_InfantrySquad
 				{
 					name = "Infantry Squad";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.7;
 					class Unit0
@@ -81,7 +81,7 @@ class cfgGroups
 				class CPC_B_GFD_InfantrySection
 				{
 					name = "Infantry Section";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.2;
 					class Unit0
@@ -116,7 +116,7 @@ class cfgGroups
 				class CPC_B_GFD_InfantrySectionAT
 				{
 					name = "Infantry Section (AT)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.2;
 					class Unit0
@@ -158,7 +158,7 @@ class cfgGroups
 				class CPC_B_GFD_InfantrySectionAA
 				{
 					name = "Infantry Section (AA)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.2;
 					class Unit0
@@ -186,7 +186,7 @@ class cfgGroups
 				class CPC_B_GFD_InfantrySectionMG
 				{
 					name = "Infantry Section (MG)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.2;
 					class Unit0
@@ -228,7 +228,7 @@ class cfgGroups
 				class CPC_B_GFD_SniperTeam
 				{
 					name = "Sniper Team";
-					icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.05;
 					class Unit0
@@ -249,7 +249,7 @@ class cfgGroups
 				class CPC_B_GFD_SFTeam
 				{
 					name = "SF Team";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					faction = "CPC_B_GFD"; side = 1;
 					rarityGroup = 0.05;
 					class Unit0
@@ -303,7 +303,7 @@ class cfgGroups
 				class CPC_B_GFD_MotorizedInfantrySquad
 				{
 					name = "Motorized Infantry Squad";
-					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.3;
 					side = 1;
@@ -381,7 +381,7 @@ class cfgGroups
 				class CPC_B_GFD_MotorizedReconSection
 				{
 					name = "Motorized Recon Section";
-					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.3;
 					side = 1;
@@ -417,7 +417,7 @@ class cfgGroups
 				class CPC_B_GFD_MotorizedPatrol
 				{
 					name = "Motorized Patrol";
-					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.4;
 					side = 1;
@@ -457,7 +457,7 @@ class cfgGroups
 				class CPC_B_GFD_MechanizedInfantrySquadM113
 				{
 					name = "Mechanized Infantry Squad (M113)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.7;
 					side = 1;
@@ -514,7 +514,7 @@ class cfgGroups
 				class CPC_B_GFD_MechanizedInfantrySquadBTR60
 				{
 					name = "Mechanized Infantry Squad (BTR60)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.9;
 					side = 1;
@@ -585,7 +585,7 @@ class cfgGroups
 				class CPC_B_GFD_MechanizedReconSection
 				{
 					name = "Mechanized Recon Section";
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.7;
 					side = 1;
@@ -653,7 +653,7 @@ class cfgGroups
 				class CPC_B_GFD_T55Platoon
 				{
 					name = "T-55 Platoon";
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.05;
 					side = 1;
@@ -686,7 +686,7 @@ class cfgGroups
 				class CPC_B_GFD_UH1HFlight
 				{
 					name = "UH-1H Flight";
-					icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.3;
 					minAltitude = 60;
@@ -710,7 +710,7 @@ class cfgGroups
 				class CPC_B_GFD_Su25Flight
 				{
 					name = "Su-25 Flight";
-					icon = "\A3\ui_f\data\map\markers\nato\o_plane.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.3;
 					minAltitude = 100;
@@ -748,6 +748,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -769,6 +770,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -832,6 +834,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -895,6 +898,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -930,6 +934,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -965,6 +970,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1000,6 +1006,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1035,6 +1042,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1070,6 +1078,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1112,6 +1121,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1137,6 +1147,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.2;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1179,6 +1190,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.2;
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1211,6 +1223,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.1;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1246,6 +1259,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.1;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1281,6 +1295,7 @@ class cfgGroups
                     side = 0;
                     faction = "CPC_O_NPFD";
                     rarityGroup = 0.1;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     class Unit0
                     {
                         side = 0;
@@ -1324,9 +1339,9 @@ class cfgGroups
 				class CPC_I_Pirate_InfantrySquad
 				{
 					name = "Infantry Squad";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					faction = "CPC_I_Pirate"; side = 2;
 					rarityGroup = 0.7;
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 					class Unit0
 					{
 						side = 2;
@@ -1394,9 +1409,9 @@ class cfgGroups
 				class CPC_I_Pirate_InfantryPatrol
 				{
 					name = "Infantry Patrol";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					faction = "CPC_I_Pirate"; side = 2;
 					rarityGroup = 0.7;
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 					class Unit0
 					{
 						side = 2;
@@ -1422,7 +1437,7 @@ class cfgGroups
 				class CPC_I_Pirate_InfantrySentry
 				{
 					name = "Infantry Sentry";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 					faction = "CPC_I_Pirate"; side = 2;
 					rarityGroup = 0.7;
 					class Unit0
@@ -1443,7 +1458,7 @@ class cfgGroups
 				class CPC_I_Pirate_InfantrySection
 				{
 					name = "Infantry Section";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 					faction = "CPC_I_Pirate"; side = 2;
 					rarityGroup = 0.2;
 					class Unit0
@@ -1478,7 +1493,7 @@ class cfgGroups
 				class CPC_I_Pirate_InfantrySectionAT
 				{
 					name = "Infantry Section (AT)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 					faction = "CPC_I_Pirate"; side = 2;
 					rarityGroup = 0.2;
 					class Unit0
@@ -1513,7 +1528,7 @@ class cfgGroups
 				class CPC_I_Pirate_InfantrySectionMG
 				{
 					name = "Infantry Section (MG)";
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 					faction = "CPC_I_Pirate"; side = 2;
 					rarityGroup = 0.2;
 					class Unit0

@@ -53,8 +53,6 @@ class CfgPatches {
 			"CPC_Afrique_B_GFD_V3S_Covered",
 			"CPC_Afrique_B_GFD_V3S_Refuel",
 			"CPC_Afrique_B_GFD_V3S_Repair",
-			
-			
 			"CPC_Duala_O_NPFD_soldier_1",
 			"CPC_Duala_O_NPFD_soldier_2",
 			"CPC_Duala_O_NPFD_soldier_3",
@@ -88,7 +86,6 @@ class CfgPatches {
 			"CPC_Duala_O_NPFD_SPG9",
 			"CPC_Afrique_O_NPFD_V3S_Open",
 			"CPC_Afrique_O_NPFD_V3S_Covered",
-			
 			"CPC_Afrique_I_pirate_soldier_TL",
 			"CPC_Afrique_I_pirate_soldier_1",
 			"CPC_Afrique_I_pirate_soldier_2",
@@ -99,7 +96,6 @@ class CfgPatches {
 			"CPC_Afrique_I_pirate_soldier_AT",
 			"CPC_Afrique_I_pirate_soldier_ENG",
 			"CPC_Afrique_I_pirate_soldier_Medic"
-			
 		};
 		weapons[] = {
 			"CPC_Afrique_Vest_PASGT_Tan",

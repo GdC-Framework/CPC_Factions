@@ -36,6 +36,13 @@ class CfgPatches {
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
 	};
+	class CPC_Factions_CUP_patch
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {};
+	};
 };
 
 
