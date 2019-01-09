@@ -1401,7 +1401,7 @@ class cfgGroups
 					class Unit8
 					{
 						side = 2;
-						vehicle = "CPC_ME_I_REB_soldier_1";
+						vehicle = "CPC_Afrique_I_pirate_soldier_1";
 						rank = "PRIVATE";
 						position[] = {8,-2,0};
 					};

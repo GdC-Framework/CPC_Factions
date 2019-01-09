@@ -121,7 +121,7 @@ class CfgFactionClasses
 {
 	class CPC_I_AGUE
 	{
-		displayName = "Asian Guerrilla";
+		displayName = "Asian Guerilla";
 		author = "CPC Faction";
 		priority = 1;
 		side = 2;
