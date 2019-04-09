@@ -101,7 +101,7 @@ class cfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_1";
+						vehicle = "CPC_LAT_B_EJE_soldier_GL";
 						rank = "PRIVATE";
 						position[] = {5,0,0};
 					};
@@ -150,11 +150,11 @@ class cfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_AAT";
+						vehicle = "CPC_LAT_B_EJE_soldier_LAT";
 						rank = "PRIVATE";
 						position[] = {9,0,0};
 					};
-				};/*
+				};
 				class CPC_B_EJE_InfantrySectionAA
 				{
 					name = "Infantry Section (AA)";
@@ -171,18 +171,18 @@ class cfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_1";
+						vehicle = "CPC_LAT_B_EJE_soldier_AA";
 						rank = "SERGEANT";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_1";
+						vehicle = "CPC_LAT_B_EJE_soldier_AA";
 						rank = "SERGEANT";
 						position[] = {5,0,0};
 					};
-				};*/
+				};
 				class CPC_B_EJE_InfantrySectionMG
 				{
 					name = "Infantry Section (MG)";
@@ -310,7 +310,7 @@ class cfgGroups
 					class Unit7
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_1";
+						vehicle = "CPC_LAT_B_EJE_soldier_GL";
 						rank = "CORPORAL";
 						position[] = {15,0,0};
 					};
@@ -353,7 +353,7 @@ class cfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_LR_MG";
+						vehicle = "CPC_LAT_B_EJE_soldier_GL";
 						rank = "CORPORAL";
 						position[] = {-5,-7,0};
 					};
@@ -389,7 +389,7 @@ class cfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_1";
+						vehicle = "CPC_LAT_B_EJE_soldier_LAT";
 						rank = "PRIVATE";
 						position[] = {3,0,0};
 					};
@@ -443,7 +443,7 @@ class cfgGroups
 					class Unit5
 					{
 						side = 1;
-						vehicle = "CPC_LAT_B_EJE_soldier_1";
+						vehicle = "CPC_LAT_B_EJE_soldier_LAT";
 						rank = "CORPORAL";
 						position[] = {11,0,0};
 					};

@@ -506,9 +506,9 @@
 		hiddenSelections[] ={"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] =
 		{
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_eciv_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_eciv_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_eciv_co"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co.paa"
 		};
 		CPC_PREVIEW(CPC_Afrique_O_NPFD_V3S_Open);
 	};
@@ -524,10 +524,10 @@
 		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_eciv_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_eciv_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_eciv_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co.paa"
 		};
 		CPC_PREVIEW(CPC_Afrique_O_NPFD_V3S_Covered);
 	};

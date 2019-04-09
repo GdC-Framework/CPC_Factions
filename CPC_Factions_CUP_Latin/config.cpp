@@ -7,9 +7,12 @@ class CfgPatches
 		{
 			"CPC_LAT_B_EJE_soldier_1",
 			"CPC_LAT_B_EJE_soldier_light",
+			"CPC_LAT_B_EJE_soldier_LAT",
+			"CPC_LAT_B_EJE_soldier_GL",
 			"CPC_LAT_B_EJE_soldier_M",
 			"CPC_LAT_B_EJE_soldier_AT",
 			"CPC_LAT_B_EJE_soldier_AAT",
+			"CPC_LAT_B_EJE_soldier_AA",
 			"CPC_LAT_B_EJE_soldier_MG",
 			"CPC_LAT_B_EJE_soldier_AMG",
 			"CPC_LAT_B_EJE_soldier_Medic",

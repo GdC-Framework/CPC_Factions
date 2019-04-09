@@ -71,10 +71,10 @@
 		scopeCurator = 2;
 		linkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CPC_Afrique_Vest_PASGT_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
-		respawnWeapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"CPC_Afrique_arifle_M16A2_GOSHAWK","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_arifle_M16A2_GOSHAWK","Throw","Put"};
+		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_Duala_B_GFD_soldier_night);
 	};
 	class CPC_Duala_B_GFD_soldier_GL : CPC_Duala_B_GFD_soldier_base
@@ -288,7 +288,7 @@
 	
 	class CPC_Duala_B_GFD_soldier_SF_1 : CPC_Duala_B_GFD_soldier_base
 	{
-		displayName = "Rifleman (M4A3)";
+		displayName = "Rifleman";
 		scope = 2;
 		scopeCurator = 2;
 		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
@@ -317,7 +317,7 @@
 	};
 	class CPC_Duala_B_GFD_soldier_SF_MG : CPC_Duala_B_GFD_soldier_base
 	{
-		displayName = "Machinegunner (M60E4)";
+		displayName = "Machinegunner";
 		scope = 2;
 		scopeCurator = 2;
 		editorSubcategory = "EdSubcat_Personnel_SpecialForces";
@@ -747,9 +747,9 @@
 		hiddenSelections[] ={"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] =
 		{
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co.paa"
 		};	
 		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Open);
 	};
@@ -766,10 +766,10 @@
 		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co.paa"
 		};
 		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Covered);
 	};
@@ -786,10 +786,10 @@
 		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_refuel_egue_co"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_refuel_egue_co.paa"
 		};
 		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Refuel);
 	};
@@ -806,10 +806,10 @@
 		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
 		hiddenSelectionsTextures[] =
 		{
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_repair_egue_co"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_repair_egue_co.paa"
 		};
 		CPC_PREVIEW(CPC_Afrique_B_GFD_V3S_Repair);
 	};

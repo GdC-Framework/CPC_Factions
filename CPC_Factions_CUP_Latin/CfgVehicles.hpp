@@ -40,9 +40,9 @@
 #define VEHICLECARGOSMALLEJE \
 	class TransportWeapons \
 	{ \
-		class _xx_CUP_arifle_FNFAL5061 \
+		class _xx_CUP_arifle_M16A1 \
 		{ \
-			weapon = "CUP_arifle_FNFAL5061"; \
+			weapon = "CUP_arifle_M16A1"; \
 			count = 1; \
 		}; \
 	}; \
@@ -71,9 +71,9 @@
 			magazine = "CUP_HandGrenade_RGD5"; \
 			count = 5; \
 		}; \
-		class _xx_CUP_20Rnd_762x51_FNFAL_M \
+		class _xx_CUP_20Rnd_556x45_Stanag \
 		{ \
-			magazine = "CUP_20Rnd_762x51_FNFAL_M"; \
+			magazine = "CUP_20Rnd_556x45_Stanag"; \
 			count = 10; \
 		}; \
 	}; \
@@ -82,9 +82,9 @@
 #define VEHICLECARGOBIGEJE \
 	class TransportWeapons \
 	{ \
-		class _xx_CUP_arifle_FNFAL5061 \
+		class _xx_CUP_arifle_M16A1 \
 		{ \
-			weapon = "CUP_arifle_FNFAL5061"; \
+			weapon = "CUP_arifle_M16A1"; \
 			count = 1; \
 		}; \
 	}; \
@@ -113,9 +113,9 @@
 			magazine = "CUP_HandGrenade_RGD5"; \
 			count = 10; \
 		}; \
-		class _xx_CUP_20Rnd_762x51_FNFAL_M \
+		class _xx_CUP_20Rnd_556x45_Stanag \
 		{ \
-			magazine = "CUP_20Rnd_762x51_FNFAL_M"; \
+			magazine = "CUP_20Rnd_556x45_Stanag"; \
 			count = 20; \
 		}; \
 		class _xx_CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M \

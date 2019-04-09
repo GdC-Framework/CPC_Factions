@@ -213,12 +213,12 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_CompM2_Black";
+				item = "CUP_optic_CompM2_low";
 			};
 			class LinkedItemSide
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "CUP_acc_ANPEQ_15_Black";
 			};
 		};
 	};
@@ -236,7 +236,7 @@ class cfgWeapons
 			class LinkedItemSide
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "CUP_acc_ANPEQ_15_Black";
 			};
 		};
 	};
@@ -250,12 +250,12 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_CompM2_Black";
+				item = "CUP_optic_CompM2_low";
 			};
 			class LinkedItemSide
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "CUP_acc_ANPEQ_15_Black";
 			};
 		};
 	};
@@ -269,7 +269,7 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM60";
-				item = "CUP_optic_CompM2_Black";
+				item = "CUP_optic_CompM2_low";
 			};
 		};
 	};
@@ -288,7 +288,7 @@ class cfgWeapons
 			class LinkedItemSide
 			{
 				slot = "CUP_PicatinnySideMountL129";
-				item = "CUP_acc_ANPEQ_2_grey";
+				item = "CUP_acc_ANPEQ_15_Black";
 			};
 			class LinkedItemsBipod
 			{
@@ -322,6 +322,20 @@ class cfgWeapons
 			{
 				slot = "CUP_PicatinnyTopMountFNFAL";
 				item = "CUP_optic_AN_PVS_4";
+			};
+		};
+	};
+	class CUP_arifle_M16A2;
+	class CPC_Afrique_arifle_M16A2_GOSHAWK: CUP_arifle_M16A2
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM16";
+				item = "CUP_optic_GOSHAWK_RIS";
 			};
 		};
 	};
