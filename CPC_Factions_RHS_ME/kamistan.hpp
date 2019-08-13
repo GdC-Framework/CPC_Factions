@@ -4,12 +4,6 @@
 		side = 0;
 		scope = 1;
 		scopeCurator = 0;
-		accuracy = 3.9;
-		sensitivity = 3;
-		threat[] = { 1, 0.1, 0.1 };
-		camouflage = 1.4;
-		minFireTime = 7;
-		cost = 300000;
 		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
@@ -19,6 +13,16 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		icon = "iconMan";
+		role = "Rifleman";
+		cost = 100000;
+		threat[] = {0.8,0.1,0.1};
+		accuracy = 1.6;
+		camouflage = 1.4;
+		minFireTime = 7;
+		canCarryBackPack = 1;
+		primaryAmmoCoef = 0.4;
+		secondaryAmmoCoef = 0.2;
+		handgunAmmoCoef = 0.1;
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	class CPC_ME_O_KAM_soldier_1 : CPC_ME_O_KAM_soldier_base
@@ -48,6 +52,7 @@
 		displayName = "Rifleman (light)";
 		scope = 2;
 		scopeCurator = 2;
+		camouflage = 1.2;
 		linkedItems[] = {"rhs_vydra_3m","rhs_fieldcap_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_vydra_3m","rhs_fieldcap_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		CPC_PREVIEW(CPC_ME_O_KAM_soldier_light);
@@ -57,6 +62,8 @@
 		displayName = "Grenadier";
 		scope = 2;
 		scopeCurator = 2;
+		role = "Grenadier";
+		cost = 200000;
 		weapons[] = {"rhs_weap_ak74_gp25","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_ak74_gp25","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
@@ -68,6 +75,8 @@
 		displayName = "Marksman";
 		scope = 2;
 		scopeCurator = 2;
+		role = "Marksman";
+		cost = 250000;
 		linkedItems[] = {"rhs_6b5_sniper_khaki","rhs_ssh68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_6b5_sniper_khaki","rhs_ssh68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_m76_pso","Throw","Put"};
@@ -82,6 +91,9 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManAT";
+		role = "MissileSpecialist";
+		cost = 130000;
+		threat[] = {0.8,0.8,0.3};
 		weapons[] = {"rhs_weap_ak74","rhs_weap_rpg26","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_ak74","rhs_weap_rpg26","Throw","Put"};
 		magazines[] = {"rhs_rpg26_mag","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
@@ -94,6 +106,11 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManAT";
+		role = "MissileSpecialist";
+		cost = 130000;
+		threat[] = {0.8,0.8,0.3};
+		camouflage = 1.5;
+		secondaryAmmoCoef = 0.5;
 		backpack = "CPC_ME_Backpack_KAM_AT";
 		linkedItems[] = {"rhs_6b5_khaki","rhs_ssh68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_6b5_khaki","rhs_ssh68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -117,6 +134,7 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManMG";
+		role = "MachineGunner";
 		backpack = "CPC_ME_Backpack_KAM_MG";
 		weapons[] = {"rhs_weap_pkm","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
@@ -139,6 +157,12 @@
 		displayName = "AA Specialist";
 		scope = 2;
 		scopeCurator = 2;
+		cost = 130000;
+		threat[] = {0.8,0.1,1.0};
+		camouflage = 1.5;
+		icon = "iconManAT";
+		role = "MissileSpecialist";
+		secondaryAmmoCoef = 0.5;
 		weapons[] = {"rhs_weap_aks74","rhs_weap_igla","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_aks74","rhs_weap_igla","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_9k38_rocket"};
@@ -150,9 +174,11 @@
 		displayName = "Medic";
 		scope = 2;
 		scopeCurator = 2;
-		picture = "pictureHeal";
 		icon = "iconManMedic";
+		role = "CombatLifeSaver";
+		picture = "pictureHeal";
 		attendant = 1;
+		camouflage = 1.6;
 		backpack = "CPC_ME_Backpack_KAM_Medic";
 		linkedItems[] = {"rhs_6b5_medic_khaki","rhs_ssh68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_6b5_medic_khaki","rhs_ssh68","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -167,6 +193,9 @@
 		displayName = "Crew";
 		scope = 2;
 		scopeCurator = 2;
+		role = "Crewman";
+		cost = 93000;
+		camouflage = 1.6;
 		linkedItems[] = {"rhs_vydra_3m","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_vydra_3m","rhs_tsh4","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_aks74","Throw","Put"};
@@ -181,6 +210,9 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManLeader";
+		role = "Grenadier";
+		cost = 250000;
+		camouflage = 1.4;
 		backpack = "CPC_ME_Backpack_KAM_TL";
 		weapons[] = {"rhs_weap_aks74","rhssaf_zrak_rd7j","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_aks74","rhssaf_zrak_rd7j","Throw","Put"};
@@ -192,7 +224,9 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManOfficer";
-		cost = 450000;
+		role = "Rifleman";
+		cost = 250000;
+		camouflage = 1.6;
 		linkedItems[] = {"rhs_6b5_officer_khaki","rhs_fieldcap_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_6b5_officer_khaki","rhs_fieldcap_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_aks74","rhs_weap_tt33","rhssaf_zrak_rd7j","Throw","Put"};
@@ -207,6 +241,9 @@
 		scope = 2;
 		scopeCurator = 2;
 		ACE_GForceCoef = 0.55;
+		role = "Crewman";
+		camouflage = 2.0;
+		cost = 93000;
 		linkedItems[] = {"rhs_6sh92_vsr_radio","rhs_zsh7a_mike_green","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_6sh92_vsr_radio","rhs_zsh7a_mike_green","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		CPC_PREVIEW(CPC_ME_O_KAM_soldier_HeliPilot);
@@ -216,6 +253,8 @@
 		displayName = "Pilot";
 		scope = 2;
 		scopeCurator = 2;
+		role = "Crewman";
+		cost = 93000;
 		backpack = "rhs_d6_Parachute_backpack";
 		linkedItems[] = {"rhs_vest_commander","rhs_zsh7a_mike_green_alt","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_vest_commander","rhs_zsh7a_mike_green_alt","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -231,9 +270,12 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManEngineer";
+		role = "Sapper";
 		picture = "pictureRepair";
+		camouflage = 1.6;
 		canDeactivateMines = 1;
 		engineer = 1;
+		detectSkill = 31;
 		backpack = "CPC_ME_Backpack_KAM_ENG";
 		CPC_PREVIEW(CPC_ME_O_KAM_soldier_ENG);
 	};

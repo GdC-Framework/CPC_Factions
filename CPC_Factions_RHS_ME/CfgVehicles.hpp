@@ -3,9 +3,9 @@
 #define VEHICLECARGOSMALLDAM \
 	class TransportWeapons \
 	{ \
-		class _xx_rhs_weap_m21a \
+		class _xx_rhs_weap_l1a1 \
 		{ \
-			weapon = "rhs_weap_m21a"; \
+			weapon = "rhs_weap_l1a1"; \
 			count = 1; \
 		}; \
 	}; \
@@ -34,9 +34,9 @@
 			magazine = "rhs_mag_m67"; \
 			count = 5; \
 		}; \
-		class _xx_rhsgref_30rnd_556x45_m21 \
+		class _xx_rhs_mag_20Rnd_762x51_m80_fnfal \
 		{ \
-			magazine = "rhsgref_30rnd_556x45_m21"; \
+			magazine = "rhs_mag_20Rnd_762x51_m80_fnfal"; \
 			count = 10; \
 		}; \
 		class _xx_rhs_30Rnd_762x39mm \
@@ -50,9 +50,9 @@
 #define VEHICLECARGOBIGDAM \
 	class TransportWeapons \
 	{ \
-		class _xx_rhs_weap_m21a \
+		class _xx_rhs_weap_l1a1 \
 		{ \
-			weapon = "rhs_weap_m21a"; \
+			weapon = "rhs_weap_l1a1"; \
 			count = 1; \
 		}; \
 		class _xx_rhs_weap_akms \
@@ -91,9 +91,9 @@
 			magazine = "rhs_mag_m67"; \
 			count = 10; \
 		}; \
-		class _xx_rhsgref_30rnd_556x45_m21 \
+		class _xx_rhs_mag_20Rnd_762x51_m80_fnfal \
 		{ \
-			magazine = "rhsgref_30rnd_556x45_m21"; \
+			magazine = "rhs_mag_20Rnd_762x51_m80_fnfal"; \
 			count = 20; \
 		}; \
 		class _xx_rhs_30Rnd_762x39mm \
@@ -374,9 +374,9 @@ class CfgVehicles
 		scopeArsenal = 0;
 		class TransportMagazines
 		{
-			class _xx_rhsgref_30rnd_556x45_m21
+			class _xx_rhs_30Rnd_762x39mm
 			{
-				magazine = "rhsgref_30rnd_556x45_m21";
+				magazine = "rhs_30Rnd_762x39mm";
 				count = 4;
 			};
 			class _xx_SmokeShellBlue
@@ -438,9 +438,9 @@ class CfgVehicles
 		scopeArsenal = 0;
 		class TransportMagazines
 		{
-			class _xx_rhsgref_30rnd_556x45_m21
+			class _xx_rhs_mag_20Rnd_762x51_m80_fnfal
 			{
-				magazine = "rhsgref_30rnd_556x45_m21";
+				magazine = "rhs_mag_20Rnd_762x51_m80_fnfal";
 				count = 4;
 			};
 			class _xx_SmokeShellBlue
