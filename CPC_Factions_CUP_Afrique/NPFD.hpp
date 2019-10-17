@@ -4,13 +4,17 @@
 		side = 0;
 		scope = 1;
 		scopeCurator = 0;
-		asr_ai_level = 6;
-		accuracy = 2.3;
-		sensitivity = 3;
-		threat[] = { 1, 0.1, 0.1 };
-		camouflage = 1.1;
+		icon = "iconMan";
+		role = "Rifleman";
+		cost = 100000;
+		threat[] = {0.8,0.1,0.1};
+		accuracy = 1.6;
+		camouflage = 1.2;
 		minFireTime = 7;
-		cost = 150000;
+		canCarryBackPack = 1;
+		primaryAmmoCoef = 0.4;
+		secondaryAmmoCoef = 0.2;
+		handgunAmmoCoef = 0.1;
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
@@ -23,7 +27,6 @@
 //			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\partisans\part_ttsko_full_co.paa"
 			"\CPC\Factions\CPC_Factions_CUP_Afrique\Data\NPFD_uniform.paa"
 		};
-		icon = "iconMan";
 		headgearList[] =
 		{
 			"",1,
@@ -75,8 +78,8 @@
 		displayName = "Rifleman (Sa-58)";
 		linkedItems[] = {"CPC_Vest_Chestrig_1_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CPC_Vest_Chestrig_1_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"CUP_arifle_Sa58P_des","Throw","Put"};
-		respawnWeapons[] = {"CUP_arifle_Sa58P_des","Throw","Put"};
+		weapons[] = {"CUP_arifle_Sa58P","Throw","Put"};
+		respawnWeapons[] = {"CUP_arifle_Sa58P","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_Duala_O_NPFD_soldier_5);
@@ -86,9 +89,9 @@
 		displayName = "Team Leader";
 		scope = 2;
 		scopeCurator = 2;
-		asr_ai_level = 5;
-		cost = 300000;
 		icon = "iconManLeader";
+		role = "Rifleman";
+		cost = 250000;
 		headgearList[] =
 		{
 			"CPC_Duala_Cappatrol_NPFD",1
@@ -107,6 +110,9 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManMG";
+		role = "MachineGunner";
+		cost = 220000;
+		camouflage = 1.4;
 		backpack = "CPC_Duala_Backpack_NPFD_AR";
 		linkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -121,8 +127,9 @@
 		displayName = "Sniper";
 		scope = 2;
 		scopeCurator = 2;
-		asr_ai_level = 10;
-		cost = 300000;
+		role = "Marksman";
+		cost = 250000;
+		camouflage = 1.2;
 		linkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_srifle_CZ550","Throw","Put"};
@@ -137,6 +144,9 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManMG";
+		role = "MachineGunner";
+		camouflage = 1.4;
+		cost = 220000;
 		backpack = "CPC_Duala_Backpack_NPFD_MG";
 		linkedItems[] = {"CUP_V_I_Carrier_Belt","CUP_H_FR_BandanaGreen","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","CUP_H_FR_BandanaGreen","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -151,8 +161,9 @@
 		displayName = "Medic";
 		scope = 2;
 		scopeCurator = 2;
-		picture = "pictureHeal";
 		icon = "iconManMedic";
+		role = "CombatLifeSaver";
+		picture = "pictureHeal";
 		attendant = 1;
 		backpack = "CPC_Duala_Backpack_NPFD_Medic";
 		linkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","G_Shades_Red","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -169,6 +180,11 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManAT";
+		role = "MissileSpecialist";
+		cost = 130000;
+		threat[] = {0.8,0.8,0.3};
+		camouflage = 1.4;
+		secondaryAmmoCoef = 0.5;
 		backpack = "CPC_Duala_Backpack_NPFD_AT";
 		linkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","H_Bandanna_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","H_Bandanna_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -181,6 +197,9 @@
 	class CPC_Duala_O_NPFD_soldier_AAT : CPC_Duala_O_NPFD_soldier_2
 	{
 		displayName = "Asst. AT Specialist";
+		role = "Assistant";
+		cost = 130000;
+		camouflage = 1.4;
 		backpack = "CPC_Duala_Backpack_NPFD_AT";
 		CPC_PREVIEW(CPC_Duala_O_NPFD_soldier_AAT);
 	};
@@ -190,9 +209,11 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManEngineer";
+		role = "Sapper";
 		picture = "pictureRepair";
 		canDeactivateMines = 1;
 		engineer = 1;
+		detectSkill = 31;
 		backpack = "CPC_Duala_Backpack_NPFD_ENG";
 		linkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","H_Booniehat_tan","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","H_Booniehat_tan","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -220,8 +241,10 @@
 		displayName = "Grenadier";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_FR_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_FR_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		role = "Grenadier";
+		cost = 200000;
+		linkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_glaunch_M79","Throw","Put"};
 		respawnWeapons[] = {"CUP_glaunch_M79","Throw","Put"};
 		magazines[] = {"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareWhite_F","UGL_FlareWhite_F","SmokeShell","SmokeShell"};
@@ -233,6 +256,12 @@
 		displayName = "AA Specialist";
 		scope = 2;
 		scopeCurator = 2;
+		cost = 130000;
+		threat[] = {0.8,0.1,1.0};
+		camouflage = 1.5;
+		icon = "iconManAT";
+		role = "MissileSpecialist";
+		secondaryAmmoCoef = 0.5;
 		linkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","CUP_H_SLA_BeretRed","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_GER_Carrier_Rig_2_Brown","CUP_H_SLA_BeretRed","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","CUP_launch_9K32Strela","Throw","Put"};
@@ -246,9 +275,9 @@
 		displayName = "Officer";
 		scope = 2;
 		scopeCurator = 2;
-		asr_ai_level = 5;
-		cost = 450000;
-		icon = "iconManLeader";
+		icon = "iconManOfficer";
+		role = "Rifleman";
+		cost = 250000;
 		headgearList[] =
 		{
 			"H_Beret_blk",1
@@ -410,7 +439,8 @@
 		};
 		CPC_PREVIEW(CPC_Duala_O_NPFD_Ural_Open_3);
 	};
-	class CPC_Duala_O_NPFD_Ural_ZU23 : CUP_Ural_ZU23_Base
+	class CUP_O_Ural_ZU23_CHDKZ;
+	class CPC_Duala_O_NPFD_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ
 	{
 		side = 0;
 		scope = 2;
@@ -421,7 +451,8 @@
         hiddenSelectionsTextures[] = 
 		{
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa",
-			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa"
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
 		};
 		CPC_PREVIEW(CPC_Duala_O_NPFD_Ural_ZU23);
 	};
@@ -530,4 +561,26 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co.paa"
 		};
 		CPC_PREVIEW(CPC_Afrique_O_NPFD_V3S_Covered);
+	};
+	class CPC_Afrique_O_NPFD_Zodiac : CUP_B_Zodiac_USMC
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_1";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_1"};
+		CPC_PREVIEW(CPC_Afrique_O_NPFD_Zodiac);
+	};
+	class CPC_Afrique_O_NPFD_PBX : CUP_O_PBX_SLA
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_1"};
+		CPC_PREVIEW(CPC_Afrique_O_NPFD_PBX);
 	};

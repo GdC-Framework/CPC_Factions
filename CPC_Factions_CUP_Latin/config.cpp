@@ -54,6 +54,7 @@ class CfgPatches
 			"CPC_LAT_I_PIC_soldier_LAT",
 			"CPC_LAT_I_PIC_soldier_AT",
 			"CPC_LAT_I_PIC_soldier_AAT",
+			"CPC_LAT_I_PIC_soldier_AA",
 			"CPC_LAT_I_PIC_soldier_MG",
 			"CPC_LAT_I_PIC_soldier_AMG",
 			"CPC_LAT_I_PIC_soldier_AR",

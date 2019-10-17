@@ -13,13 +13,46 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				slot = "CUP_PicatinnyTopMountM14";
+				slot = "CowsSlot";
 				item = "cup_optic_leupoldmk4";
 			};
 		};
 	};
 	
 	// uniform
+	class CUP_U_B_BDUv2_dirty_OD;
+	class CPC_Latin_Uniform_PIC_olive: CUP_U_B_BDUv2_dirty_OD
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		displayName = "Picaros Uniform (Olive)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = CPC_LAT_I_PIC_soldier_base_1;
+			containerClass = Supply40;
+			mass = 20;
+		};
+	};
+	class CUP_U_B_BDUv2_roll2_dirty_OD;
+	class CPC_Latin_Uniform_PIC_olive_2: CUP_U_B_BDUv2_roll2_dirty_OD
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		displayName = "Picaros Uniform (Olive,Rolled)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = CPC_LAT_I_PIC_soldier_base_2;
+			containerClass = Supply40;
+			mass = 20;
+		};
+	};
+	/*
 	class CPC_Latin_Uniform_PIC_olive: ItemCore
 	{
 		scope = 1;
@@ -44,4 +77,5 @@ class cfgWeapons
 			mass = 20;
 		};
 	};
+	*/
 };

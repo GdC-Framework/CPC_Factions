@@ -197,8 +197,8 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_ACOG2";
+				slot = "CUP_PicatinnyTopMountM16";
+				item = "cup_optic_rco";
 			};
 		};
 	};
@@ -218,7 +218,7 @@ class cfgWeapons
 			class LinkedItemSide
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_15_Black";
+				item = "cup_acc_anpeq_2_grey";
 			};
 		};
 	};
@@ -231,12 +231,12 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountM4";
-				item = "CUP_optic_ACOG";
+				item = "cup_optic_acog";
 			};
 			class LinkedItemSide
 			{
 				slot = "CUP_PicatinnySideMountM4";
-				item = "CUP_acc_ANPEQ_15_Black";
+				item = "cup_acc_anpeq_2_grey";
 			};
 		};
 	};
@@ -297,6 +297,30 @@ class cfgWeapons
 			};
 		};
 	};
+	class CUP_srifle_m110_kac_black;
+	class CPC_Afrique_m110_kac_black_Leupold_laser: CUP_srifle_m110_kac_black
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "cup_optic_leupoldmk4";
+			};
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "cup_acc_anpeq_2_grey";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_02_F_blk";
+			};
+		};
+	};
 	
 	class CUP_arifle_FNFAL_railed;
 	class CPC_Duala_arifle_FNFAL_railed_SandBshortdot: CUP_arifle_FNFAL_railed
@@ -307,8 +331,8 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				slot = "CUP_PicatinnyTopMountFNFAL";
-				item = "CUP_optic_SB_11_4x20_PM";
+				slot = "CowsSlot";
+				item = "cup_optic_sb_11_4x20_pm";
 			};
 		};
 	};
@@ -320,11 +344,12 @@ class cfgWeapons
 		{
 			class LinkedItemsOptic
 			{
-				slot = "CUP_PicatinnyTopMountFNFAL";
+				slot = "CowsSlot";
 				item = "CUP_optic_AN_PVS_4";
 			};
 		};
 	};
+	
 	class CUP_arifle_M16A2;
 	class CPC_Afrique_arifle_M16A2_GOSHAWK: CUP_arifle_M16A2
 	{
@@ -336,6 +361,19 @@ class cfgWeapons
 			{
 				slot = "CUP_PicatinnyTopMountM16";
 				item = "CUP_optic_GOSHAWK_RIS";
+			};
+		};
+	};
+	class CPC_Afrique_arifle_M16A2_ANPVS4: CUP_arifle_M16A2
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM16";
+				item = "cup_optic_an_pvs_4_m16";
 			};
 		};
 	};

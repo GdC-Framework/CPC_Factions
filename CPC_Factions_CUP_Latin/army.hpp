@@ -4,21 +4,25 @@
 		side = 1;
 		scope = 1;
 		scopeCurator = 0;
-		accuracy = 3.9;
-		sensitivity = 3;
-		threat[] = { 1, 0.1, 0.1 };
+		icon = "iconMan";
+		role = "Rifleman";
+		cost = 100000;
+		threat[] = {0.8,0.1,0.1};
+		accuracy = 1.6;
 		camouflage = 1.4;
 		minFireTime = 7;
-		cost = 300000;
+		canCarryBackPack = 1;
+		primaryAmmoCoef = 0.4;
+		secondaryAmmoCoef = 0.2;
+		handgunAmmoCoef = 0.1;
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_EJE";
 		identityTypes[] = {"LanguageGRE_F","Head_Greek",""};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
-		uniformClass = "CUP_U_B_US_BDU";
+		uniformClass = "CUP_U_B_BDUv2_dirty_M81";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		icon = "iconMan";
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	class CPC_LAT_B_EJE_soldier_1 : CPC_LAT_B_EJE_soldier_base
@@ -26,8 +30,8 @@
 		displayName = "Rifleman";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A1","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A1","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -37,6 +41,7 @@
 	class CPC_LAT_B_EJE_soldier_light : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Rifleman (light)";
+		camouflage = 1.2;
 		linkedItems[] = {"CUP_V_B_ALICE","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_ALICE","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		magazines[] = {"CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5"};
@@ -47,8 +52,11 @@
 	{
 		displayName = "Rifleman (M72A6)";
 		icon = "iconManAT";
-		linkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		role = "MissileSpecialist";
+		cost = 130000;
+		threat[] = {0.8,0.8,0.3};
+		linkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A1","CUP_launch_M72A6","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M16A1","CUP_launch_M72A6","Throw","Put"};
 		magazines[] = {"CUP_M72A6_M","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -58,8 +66,10 @@
 	class CPC_LAT_B_EJE_soldier_GL : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Grenadier";
-		weapons[] = {"CUP_arifle_M16A2_GL","Throw","Put"};
-		respawnWeapons[] = {"CUP_arifle_M16A2_GL","Throw","Put"};
+		role = "Grenadier";
+		cost = 200000;
+		weapons[] = {"CUP_arifle_M16A1GL","Throw","Put"};
+		respawnWeapons[] = {"CUP_arifle_M16A1GL","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_GL);
@@ -67,6 +77,8 @@
 	class CPC_LAT_B_EJE_soldier_M : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Marksman";
+		role = "Marksman";
+		cost = 250000;
 		weapons[] = {"CPC_LAT_srifle_M14_leupoldmk4","Throw","Put"};
 		respawnWeapons[] = {"CPC_LAT_srifle_M14_leupoldmk4","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","SmokeShell","CUP_HandGrenade_RGD5"};
@@ -77,8 +89,13 @@
 	{
 		displayName = "AT Specialist (M47)";
 		icon = "iconManAT";
-		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		role = "MissileSpecialist";
+		cost = 130000;
+		threat[] = {0.8,0.8,0.3};
+		camouflage = 1.5;
+		secondaryAmmoCoef = 0.5;
+		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_launch_M47","CUP_arifle_M16A1","Throw","Put"};
 		respawnWeapons[] = {"CUP_launch_M47","CUP_arifle_M16A1","Throw","Put"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5"};
@@ -88,15 +105,23 @@
 	class CPC_LAT_B_EJE_soldier_AAT : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Asst. AT Specialist";
+		role = "Assistant";
+		cost = 130000;
+		camouflage = 1.5;
 		backpack = "CPC_LAT_Backpack_EJE_AT";
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_AAT);
 	};
 	class CPC_LAT_B_EJE_soldier_AA : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "AA Specialist (Stinger)";
+		cost = 130000;
+		threat[] = {0.8,0.1,1.0};
+		camouflage = 1.5;
 		icon = "iconManAT";
-		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_US_H_PASGT_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		role = "MissileSpecialist";
+		secondaryAmmoCoef = 0.5;
+		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_PASGTv2_OD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_launch_FIM92Stinger","CUP_arifle_M16A1","Throw","Put"};
 		respawnWeapons[] = {"CUP_launch_FIM92Stinger","CUP_arifle_M16A1","Throw","Put"};
 		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5"};
@@ -107,9 +132,11 @@
 	{
 		displayName = "Machinegunner";
 		icon = "iconManMG";
+		role = "MachineGunner";
+		cost = 220000;
 		backpack = "CPC_LAT_Backpack_EJE_MG";
-		weapons[] = {"CUP_lmg_M60E4_norail","Throw","Put"};
-		respawnWeapons[] = {"CUP_lmg_M60E4_norail","Throw","Put"};
+		weapons[] = {"CUP_lmg_M60","Throw","Put"};
+		respawnWeapons[] = {"CUP_lmg_M60","Throw","Put"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M","SmokeShell","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_MG);
@@ -117,15 +144,19 @@
 	class CPC_LAT_B_EJE_soldier_AMG : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Asst. Machinegunner";
+		role = "Assistant";
+		camouflage = 1.5;
 		backpack = "CPC_LAT_Backpack_EJE_MG";
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_AMG);
 	};
 	class CPC_LAT_B_EJE_soldier_Medic : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Medic";
-		picture = "pictureHeal";
 		icon = "iconManMedic";
+		role = "CombatLifeSaver";
+		picture = "pictureHeal";
 		attendant = 1;
+		camouflage = 1.6;
 		backpack = "CPC_LAT_Backpack_EJE_Medic";
 		linkedItems[] = {"CUP_V_B_PASGT_OD","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -134,6 +165,9 @@
 	class CPC_LAT_B_EJE_soldier_crew : CPC_LAT_B_EJE_soldier_1
 	{
 		displayName = "Crew";
+		role = "Crewman";
+		cost = 93000;
+		camouflage = 1.6;
 		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_USMC_Crew_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_USMC_Crew_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M16A1","Throw","Put"};
@@ -146,8 +180,11 @@
 	{
 		displayName = "Team leader";
 		icon = "iconManLeader";
-		linkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_US_H_PASGT_WDL","CUP_G_PMC_RadioHeadset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_US_H_PASGT_WDL","CUP_G_PMC_RadioHeadset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		role = "Rifleman";
+		cost = 250000;
+		camouflage = 1.4;
+		linkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_PASGTv2_OD","CUP_G_PMC_RadioHeadset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_B_PASGT_OD","CUP_H_PASGTv2_OD","CUP_G_PMC_RadioHeadset","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_Colt727","Binocular","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_Colt727","Binocular","Throw","Put"};
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_TL);
@@ -156,7 +193,10 @@
 	{
 		displayName = "Officer";
 		icon = "iconManOfficer";
-		cost = 450000;
+		role = "Rifleman";
+		cost = 250000;
+		camouflage = 1.6;
+		uniformClass = "CUP_U_B_BDUv2_M81";
 		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_US_patrol_cap_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_US_patrol_cap_WDL","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_Colt727","CUP_hgun_Colt1911","Binocular","Throw","Put"};
@@ -169,6 +209,9 @@
 	{
 		displayName = "Helicopter Pilot";
 		ACE_GForceCoef = 0.55;
+		role = "Crewman";
+		camouflage = 2.0;
+		cost = 93000;
 		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_USMC_Helmet_Pilot","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
 		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_USMC_Helmet_Pilot","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
 		weapons[] = {"CUP_hgun_Colt1911","Throw","Put"};
@@ -189,9 +232,12 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManEngineer";
+		role = "Sapper";
 		picture = "pictureRepair";
+		camouflage = 1.6;
 		canDeactivateMines = 1;
 		engineer = 1;
+		detectSkill = 31;
 		backpack = "CPC_LAT_Backpack_EJE_ENG";
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_ENG);
 	};
