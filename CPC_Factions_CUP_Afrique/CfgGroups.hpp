@@ -752,7 +752,7 @@ class cfgGroups
                     class Unit0
                     {
                         side = 0;
-                        vehicle = "CPC_Duala_O_NPFD_soldier_GL";
+                        vehicle = "CPC_Duala_O_NPFD_soldier_3";
                         rank = "CORPORAL";
                         position[] = {0,0,0};
                     };
@@ -823,7 +823,7 @@ class cfgGroups
                     class Unit7
                     {
                         side = 0;
-                        vehicle = "CPC_Duala_O_NPFD_soldier_3";
+                        vehicle = "CPC_Duala_O_NPFD_soldier_6";
                         rank = "PRIVATE";
                         position[] = {20,-20,0};
                     };
@@ -880,7 +880,7 @@ class cfgGroups
                     class Unit6
                     {
                         side = 0;
-                        vehicle = "CPC_Duala_O_NPFD_soldier_3";
+                        vehicle = "CPC_Duala_O_NPFD_soldier_6";
                         rank = "PRIVATE";
                         position[] = {15,-15,0};
                     };
@@ -1125,14 +1125,14 @@ class cfgGroups
                     class Unit0
                     {
                         side = 0;
-                        vehicle = "CPC_Duala_O_NPFD_soldier_2";
+                        vehicle = "CPC_Duala_O_NPFD_soldier_6";
                         rank = "CORPORAL";
                         position[] = {0,0,0};
                     };
                     class Unit1
                     {
                         side = 0;
-                        vehicle = "CPC_Duala_O_NPFD_soldier_3";
+                        vehicle = "CPC_Duala_O_NPFD_soldier_2";
                         rank = "PRIVATE";
                         position[] = {5,-5,0};
                     };

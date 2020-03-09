@@ -323,7 +323,8 @@ class cfgWeapons
 	};
 	
 	class CUP_arifle_FNFAL_railed;
-	class CPC_Duala_arifle_FNFAL_railed_SandBshortdot: CUP_arifle_FNFAL_railed
+	class CUP_arifle_Gewehr1_railed;
+	class CPC_Duala_arifle_FNFAL_railed_SandBshortdot: CUP_arifle_Gewehr1_railed
 	{
 		scope = 1;
 		author = "CPC Faction";
@@ -333,6 +334,11 @@ class cfgWeapons
 			{
 				slot = "CowsSlot";
 				item = "cup_optic_sb_11_4x20_pm";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "CUP_bipod_FNFAL";
 			};
 		};
 	};

@@ -84,6 +84,17 @@
 		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_Duala_O_NPFD_soldier_5);
 	};
+	class CPC_Duala_O_NPFD_soldier_6 : CPC_Duala_O_NPFD_soldier_1
+	{
+		displayName = "Rifleman (SKS)";
+		linkedItems[] = {"CPC_Vest_Chestrig_1_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Vest_Chestrig_1_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[] = {"CUP_SKS","Throw","Put"};
+		respawnWeapons[] = {"CUP_SKS","Throw","Put"};
+		magazines[] = {"CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","CUP_10Rnd_762x39_SKS_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		CPC_PREVIEW(CPC_Duala_O_NPFD_soldier_6);
+	};
 	class CPC_Duala_O_NPFD_soldier_TL : CPC_Duala_O_NPFD_soldier_base
 	{
 		displayName = "Team Leader";
@@ -355,6 +366,90 @@
 			"hideRollBar", 0.5
 		};
 		CPC_PREVIEW(CPC_Duala_O_NPFD_Datsun_PK);
+	};
+	
+	//Hilux
+	#define HILUX_NPFD_DATA\
+		dlc = "CPC_Factions_CUP";\
+		author = "CPC Faction";\
+		scope = 2;\
+		side = 0;\
+		crew = "CPC_Duala_O_NPFD_soldier_1";\
+        typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_2","CPC_Duala_O_NPFD_soldier_3","CPC_Duala_O_NPFD_soldier_AR","CPC_Duala_O_NPFD_soldier_6"};\
+		faction = "CPC_O_NPFD";\
+		class EventHandlers: EventHandlers\
+		{\
+			init="if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";\
+		};\
+        textureList[] =\
+		{\
+			"Red", 1,\
+			"DarkGrey", 0.2,\
+			"Olive", 0.2,\
+			"Grey", 0.6,\
+			"DarkBlue", 0.2,\
+			"White", 1\
+		};\
+	
+	class CUP_Hilux_Base: Car_F {};
+	class CUP_Hilux_unarmed_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_unarmed : CUP_Hilux_unarmed_Base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_1";
+        typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_2","CPC_Duala_O_NPFD_soldier_3","CPC_Duala_O_NPFD_soldier_AR","CPC_Duala_O_NPFD_soldier_6"};
+		class EventHandlers: EventHandlers
+		{
+			init="if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
+        textureList[] =
+		{
+			"Red", 1,
+			"DarkGrey", 0.2,
+			"Olive", 0.2,
+			"Grey", 0.6,
+			"DarkBlue", 0.2,
+			"White", 1
+		};
+	};
+	class CUP_Hilux_DSHKM_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_DSHKM : CUP_Hilux_DSHKM_Base
+	{
+		HILUX_NPFD_DATA
+	};
+	class CUP_Hilux_SPG9_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_SPG9 : CUP_Hilux_SPG9_Base
+	{
+		HILUX_NPFD_DATA
+	};
+	class CUP_Hilux_metis_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_metis : CUP_Hilux_metis_Base
+	{
+		HILUX_NPFD_DATA
+	};
+	class CUP_Hilux_MLRS_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_MLRS : CUP_Hilux_MLRS_Base
+	{
+		HILUX_NPFD_DATA
+	};
+	class CUP_Hilux_zu23_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_zu23 : CUP_Hilux_zu23_Base
+	{
+		HILUX_NPFD_DATA
+	};
+	class CUP_Hilux_M2_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_M2 : CUP_Hilux_M2_Base
+	{
+		HILUX_NPFD_DATA
+	};
+	class CUP_Hilux_UB32_Base: CUP_Hilux_Base {};
+	class CPC_Afrique_O_NPFD_Hilux_UB32 : CUP_Hilux_UB32_Base
+	{
+		HILUX_NPFD_DATA
 	};
 	
 	class CUP_C_Ural_Civ_01;

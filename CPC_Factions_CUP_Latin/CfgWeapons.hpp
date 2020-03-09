@@ -17,7 +17,7 @@ class cfgWeapons
 				item = "cup_optic_leupoldmk4";
 			};
 		};
-	};
+	};	
 	
 	// uniform
 	class CUP_U_B_BDUv2_dirty_OD;

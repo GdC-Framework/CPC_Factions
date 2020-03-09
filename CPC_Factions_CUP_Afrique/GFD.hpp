@@ -541,11 +541,6 @@
 		CPC_PREVIEW(CPC_Duala_B_GFD_UH1H);
 	};
 	
-	class Car;
-	class Car_F: Car
-	{
-		class AnimationSources;
-	};
 	class CUP_LR_Base: Car_F {};
 	class CUP_LR_Transport_Base: CUP_LR_Base
 	{

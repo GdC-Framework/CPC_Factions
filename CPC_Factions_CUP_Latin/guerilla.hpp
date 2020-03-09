@@ -104,10 +104,10 @@
 		scopeCurator = 2;
 		role = "Marksman";
 		cost = 250000;
-		weapons[] = {"CUP_srifle_CZ550","Throw","Put"};
-		respawnWeapons[] = {"CUP_srifle_CZ550","Throw","Put"};
-		magazines[] = {"CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","CUP_5x_22_LR_17_HMR_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"CUP_srifle_LeeEnfield_T","Throw","Put"};
+		respawnWeapons[] = {"CUP_srifle_LeeEnfield_T","Throw","Put"};
+		magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_LAT_I_PIC_soldier_M);
 	};
 	class CPC_LAT_I_PIC_soldier_LAT : CPC_LAT_I_PIC_soldier_base_1
@@ -241,8 +241,8 @@
 		scopeCurator = 2;
 		icon = "iconManLeader";
 		cost = 250000;
-		weapons[] = {"CUP_arifle_FNFAL_OSW","Binocular","Throw","Put"};
-		respawnWeapons[] = {"CUP_arifle_FNFAL_OSW","Binocular","Throw","Put"};
+		weapons[] = {"CUP_arifle_FNFAL5061_wooden","Binocular","Throw","Put"};
+		respawnWeapons[] = {"CUP_arifle_FNFAL5061_wooden","Binocular","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_LAT_I_PIC_soldier_TL);
@@ -431,6 +431,86 @@
 		};
 		VEHICLECARGOPIC
 		CPC_PREVIEW(CPC_LAT_I_PIC_Datsun_PK);
+	};
+	
+	//Hilux
+	#define HILUX_PIC_DATA\
+		dlc = "CPC_Factions_CUP";\
+		author = "CPC Faction";\
+		scope = 2;\
+		side = 2;\
+		crew = "CPC_LAT_I_PIC_soldier_2";\
+        typicalCargo[] = {"CPC_LAT_I_PIC_soldier_1","CPC_Duala_O_NPFD_soldier_3","CPC_LAT_I_PIC_soldier_AR","CPC_Duala_O_NPFD_soldier_4"};\
+		faction = "CPC_I_PIC";\
+		class EventHandlers: EventHandlers\
+		{\
+			init="if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";\
+		};\
+        textureList[] =\
+		{\
+			"Camo", 1,\
+			"Olive", 1,\
+			"Grey", 0.2,\
+			"White", 0.2\
+		};\
+	
+	class CUP_Hilux_Base: Car_F {};
+	class CUP_Hilux_unarmed_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_unarmed : CUP_Hilux_unarmed_Base
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		faction = "CPC_I_PIC";
+		crew = "CPC_LAT_I_PIC_soldier_2";
+        typicalCargo[] = {"CPC_LAT_I_PIC_soldier_1","CPC_Duala_O_NPFD_soldier_3","CPC_LAT_I_PIC_soldier_AR","CPC_Duala_O_NPFD_soldier_4"};
+		class EventHandlers: EventHandlers
+		{
+			init="if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
+        textureList[] =
+		{
+			"Camo", 1,
+			"Olive", 1,
+			"Grey", 0.4,
+			"White", 0.4
+		};
+	};
+	class CUP_Hilux_DSHKM_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_DSHKM : CUP_Hilux_DSHKM_Base
+	{
+		HILUX_PIC_DATA
+	};
+	class CUP_Hilux_SPG9_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_SPG9 : CUP_Hilux_SPG9_Base
+	{
+		HILUX_PIC_DATA
+	};
+	class CUP_Hilux_metis_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_metis : CUP_Hilux_metis_Base
+	{
+		HILUX_PIC_DATA
+	};
+	class CUP_Hilux_MLRS_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_MLRS : CUP_Hilux_MLRS_Base
+	{
+		HILUX_PIC_DATA
+	};
+	class CUP_Hilux_zu23_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_zu23 : CUP_Hilux_zu23_Base
+	{
+		HILUX_PIC_DATA
+	};
+	class CUP_Hilux_M2_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_M2 : CUP_Hilux_M2_Base
+	{
+		HILUX_PIC_DATA
+	};
+	class CUP_Hilux_UB32_Base: CUP_Hilux_Base {};
+	class CPC_LAT_I_PIC_Hilux_UB32 : CUP_Hilux_UB32_Base
+	{
+		HILUX_PIC_DATA
 	};
 	
 	class CUP_C_Ural_Civ_01;

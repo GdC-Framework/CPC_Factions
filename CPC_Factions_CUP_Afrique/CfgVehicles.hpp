@@ -252,6 +252,12 @@ class CfgVehicles
 	class SoldierWB: CAManBase
 	{
 	};
+	class Car;
+	class Car_F: Car
+	{
+		class Eventhandlers;
+		class AnimationSources;
+	};
 #include "GFD.hpp"
 #include "NPFD.hpp"
 #include "Pirate.hpp"

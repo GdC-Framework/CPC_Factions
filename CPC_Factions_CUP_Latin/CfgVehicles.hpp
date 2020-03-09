@@ -249,6 +249,12 @@ class CfgVehicles
 	class SoldierEB: CAManBase {};
 	class SoldierGB: CAManBase {};
 	class SoldierWB: CAManBase {};
+	class Car;
+	class Car_F: Car
+	{
+		class Eventhandlers;
+		class AnimationSources;
+	};
 #include "guerilla.hpp"
 #include "army.hpp"
 
