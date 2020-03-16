@@ -90,4 +90,38 @@ class cfgWeapons
 			uniformClass = "CPC_NAM_B_US_soldier_6_base";
 		};
 	};
+	
+	
+	class CUP_smg_Mac10;
+	class CPC_NAM_smg_Mac10_snds: CUP_smg_Mac10
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "CPC Faction";
+		dlc = "CPC_Factions_CUP";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_mfsup_Suppressor_Mac10";
+			};
+		};
+	};
+	class CUP_srifle_M14;
+	class CPC_NAM_srifle_M14_optic: CUP_srifle_M14
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "CPC Faction";
+		dlc = "CPC_Factions_CUP";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_KHS_old";
+			};
+		};
+	};
 };

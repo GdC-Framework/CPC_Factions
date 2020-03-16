@@ -51,6 +51,12 @@ class CfgPatches
 			"CPC_NAM_B_US_soldier_M",
 			"CPC_NAM_B_US_soldier_crew",
 			"CPC_NAM_B_US_soldier_pilot",
+			"CPC_NAM_B_US_soldier_SF_1",
+			"CPC_NAM_B_US_soldier_SF_GL",
+			"CPC_NAM_B_US_soldier_SF_MG",
+			"CPC_NAM_B_US_soldier_SF_ENG",
+			"CPC_NAM_B_US_soldier_SF_TL",
+			"CPC_NAM_B_US_soldier_SF_M",
 			"CPC_NAM_B_US_M113",
 			"CPC_NAM_B_US_M163",
 			"CPC_NAM_B_US_C47",
@@ -65,7 +71,22 @@ class CfgPatches
 			"CPC_NAM_B_US_UH1H",
 			"CPC_NAM_B_US_UH1H_armed",
 			"CPC_NAM_B_US_UH1H_slick",
-			"CPC_NAM_B_US_CH47F"
+			"CPC_NAM_B_US_CH47F",
+			"CPC_NAM_C_CIV_1",
+			"CPC_NAM_C_CIV_2",
+			"CPC_NAM_C_CIV_3",
+			"CPC_NAM_C_CIV_4",
+			"CPC_NAM_C_CIV_5",
+			"CPC_NAM_C_CIV_6",
+			"CPC_NAM_C_CIV_7",
+			"CPC_NAM_C_CIV_8",
+			"CPC_NAM_C_CIV_9",
+			"CPC_NAM_C_CIV_10",
+			"CPC_NAM_C_CIV_11",
+			"CPC_NAM_C_CIV_12",
+			"CPC_NAM_C_CIV_13",
+			"CPC_NAM_C_CIV_14",
+			"CPC_NAM_C_CIV_15"
 		};
 		weapons[] = 
 		{
@@ -77,6 +98,9 @@ class CfgPatches
 			"CPC_Factions_CUP_Main",
 			"A3_Characters_F",
 			"CUP_Weapons_Backpacks",
+			"CUP_Weapons_Mac10",
+			"CUP_Weapons_M14",
+			"CUP_Creatures_People_Civil_Takistan",
 			"cba_xeh"
 		};
 	};
@@ -97,6 +121,13 @@ class CfgFactionClasses
 		author = "CPC Faction";
 		priority = 1;
 		side = 0;
+	};
+	class CPC_O_NAM_CIV
+	{
+		displayName = "Civilians (Vietnam)";
+		author = "CPC Faction";
+		priority = 1;
+		side = 3;
 	};
 };
 
