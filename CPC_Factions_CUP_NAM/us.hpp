@@ -560,7 +560,7 @@
 		faction = "CPC_B_NAM_US";
 		crew = "CPC_NAM_B_US_soldier_pilot";
         typicalCargo[] = {"CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_TL"};
-		maxFordingDepth = 0.55;
+		maxFordingDepth = 1;
 		VEHICLECARGOUS
 	};
 	class CUP_I_UH1H_armed_TK_GUE;
@@ -573,7 +573,7 @@
 		faction = "CPC_B_NAM_US";
 		crew = "CPC_NAM_B_US_soldier_pilot";
         typicalCargo[] = {"CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_TL"};
-		maxFordingDepth = 0.55;
+		maxFordingDepth = 1;
 		VEHICLECARGOUS
 	};
 	class CUP_I_UH1H_slick_TK_GUE;
@@ -586,7 +586,7 @@
 		faction = "CPC_B_NAM_US";
 		crew = "CPC_NAM_B_US_soldier_pilot";
         typicalCargo[] = {"CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_TL"};
-		maxFordingDepth = 0.55;
+		maxFordingDepth = 1;
 		VEHICLECARGOUS
 	};
 	class CUP_B_CH47F_USA;

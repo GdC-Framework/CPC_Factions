@@ -25,6 +25,7 @@ class CfgPatches
 			"CPC_NAM_O_VC_soldier_M2",
 			"CPC_NAM_O_VC_soldier_AA",
 			"CPC_NAM_O_VC_soldier_Medic",
+			"CPC_NAM_O_VC_soldier_GL",
 			"CPC_NAM_O_VC_Ural",
 			"CPC_NAM_O_VC_Ural_Open",
 			"CPC_NAM_O_VC_Ural_ZU23",
