@@ -284,11 +284,6 @@
 				magazine = "CUP_1Rnd_StarFlare_Green_M203";
 				count = 4;
 			};
-			class _xx_ACE_40mm_Flare_red
-			{
-				magazine = "ACE_40mm_Flare_red";
-				count = 4;
-			};
 			class _xx_CUP_1Rnd_StarCluster_Red_M203
 			{
 				magazine = "CUP_1Rnd_StarCluster_Red_M203";
@@ -297,11 +292,6 @@
 			class _xx_CUP_1Rnd_StarFlare_Red_M203
 			{
 				magazine = "CUP_1Rnd_StarFlare_Red_M203";
-				count = 4;
-			};
-			class _xx_ACE_40mm_Flare_green
-			{
-				magazine = "ACE_40mm_Flare_green";
 				count = 4;
 			};
 			class _xx_CUP_1Rnd_SmokeRed_M203
