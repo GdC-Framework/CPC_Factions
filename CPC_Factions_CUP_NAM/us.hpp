@@ -419,22 +419,56 @@
 	};
 	
 	
-	class CUP_B_M113_USA;
-	class CPC_NAM_B_US_M113 : CUP_B_M113_USA
+	class CUP_M113A3_Base;
+	class CPC_NAM_B_US_M113 : CUP_M113A3_Base
 	{
 		side = 1;
 		scope = 2;
 		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
+		accuracy = 0.3;
+		maximumLoad = 5000;
 		faction = "CPC_B_NAM_US";
 		crew = "CPC_NAM_B_US_soldier_crew";
         typicalCargo[] = {"CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_TL"};
-		HiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_olive_drab_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"};
+		hiddenSelectionsTextures[] = {
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\main_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\unique_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\accessories_CO.paa",
+			"",
+			"",
+			"",
+			""
+		};
 		VEHICLECARGOUS
-		CPC_PREVIEW(CPC_NAM_B_US_M113)
+		CPC_PREVIEW(CPC_NAM_B_US_M113);
 	};
-	class CUP_B_M163_USA;
-	class CPC_NAM_B_US_M163 : CUP_B_M163_USA
+	class CUP_M113A1_Base;
+	class CPC_NAM_B_US_M113A1 : CUP_M113A1_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		accuracy = 0.3;
+		maximumLoad = 5000;
+		faction = "CPC_B_NAM_US";
+		crew = "CPC_NAM_B_US_soldier_crew";
+        typicalCargo[] = {"CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_1","CPC_NAM_B_US_soldier_TL"};
+		hiddenSelectionsTextures[] = {
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\main_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\unique_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\accessories_CO.paa",
+			"",
+			"",
+			"",
+			""
+		};
+		VEHICLECARGOUS
+		CPC_PREVIEW(CPC_NAM_B_US_M113A1);
+	};
+	class CUP_B_M163_Vulcan_USA;
+	class CPC_NAM_B_US_M163 : CUP_B_M163_Vulcan_USA
 	{
 		side = 1;
 		scope = 2;

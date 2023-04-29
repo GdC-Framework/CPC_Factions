@@ -1,3 +1,13 @@
+2.2 RHS
+- Changed Kamistan soldiers' vests
+- Fixed M249 magazine wrong classname
+- Fixed M1117 wrong inheritance 
+
+2.3 CUP
+- New M113A1 for GFD and Ejercito
+- New armed Cessna for Ejercito
+- Switched Ejercito crew weapon to M3A1
+
 1.4
 - Various config improvements for Duala Factions
 - New units for GFD : Rifleman M4 and rifleman night

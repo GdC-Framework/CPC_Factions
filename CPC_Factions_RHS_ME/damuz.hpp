@@ -149,10 +149,10 @@
 		icon = "iconManMG";
 		role = "MachineGunner";
 		backpack = "CPC_ME_Backpack_DAM_MG";
-		weapons[] = {"rhs_weap_m84","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m84","Throw","Put"};
-		magazines[] = {"rhs_100Rnd_762x54mmR_green","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
-		respawnMagazines[] = {"rhs_100Rnd_762x54mmR_green","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
+		weapons[] = {"rhs_weap_fnmag","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_fnmag","Throw","Put"};
+		magazines[] = {"rhsusf_100Rnd_762x51","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
+		respawnMagazines[] = {"rhsusf_100Rnd_762x51","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
 		CPC_PREVIEW(CPC_ME_B_DAM_soldier_MG);
 	};
 	class CPC_ME_B_DAM_soldier_AMG : CPC_ME_B_DAM_soldier_1
@@ -176,8 +176,8 @@
 		backpack = "CPC_ME_Backpack_DAM_AR";
 		weapons[] = {"rhs_weap_m249","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m249","Throw","Put"};
-		magazines[] = {"rhs_200rnd_556x45_M_SAW","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
-		respawnMagazines[] = {"rhs_200rnd_556x45_M_SAW","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
+		magazines[] = {"rhsusf_200Rnd_556x45_box","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_box","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67"};
 		CPC_PREVIEW(CPC_ME_B_DAM_soldier_AR);
 	};
 	class CPC_ME_B_DAM_soldier_AAR : CPC_ME_B_DAM_soldier_AMG
@@ -459,14 +459,12 @@
 	class rhsusf_M1117_base: Wheeled_APC_F
 	{
 		class AnimationSources: AnimationSources {};
-	};
-	class rhsusf_M1117_D: rhsusf_M1117_base
-	{
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret {};
 		};
 	};
+	class rhsusf_M1117_D: rhsusf_M1117_base	{};
 	class CPC_ME_B_DAM_M1117 : rhsusf_M1117_D
 	{
 		side = 1;

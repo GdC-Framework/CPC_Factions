@@ -59,6 +59,7 @@ class CfgPatches
 			"CPC_NAM_B_US_soldier_SF_TL",
 			"CPC_NAM_B_US_soldier_SF_M",
 			"CPC_NAM_B_US_M113",
+			"CPC_NAM_B_US_M113A1",
 			"CPC_NAM_B_US_M163",
 			"CPC_NAM_B_US_C47",
 			"CPC_NAM_B_US_AC47_Spooky",

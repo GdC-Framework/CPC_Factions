@@ -30,6 +30,7 @@ class CfgPatches {
 			"CPC_Duala_B_GFD_BRDM2_HQ",
 			"CPC_Duala_B_GFD_T55",
 			"CPC_Duala_B_GFD_M113",
+			"CPC_Duala_B_GFD_M113A1",
 			"CPC_Duala_B_GFD_ZSU23",
 			"CPC_Duala_B_GFD_Su25",
 			"CPC_Duala_B_GFD_SA330",

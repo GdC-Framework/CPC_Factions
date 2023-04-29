@@ -334,8 +334,8 @@
 		backpack = "CPC_JUN_Backpack_AMIL_AR";
 		weapons[] = {"rhs_weap_m249","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m249","Throw","Put"};
-		magazines[] = {"rhs_200rnd_556x45_M_SAW","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67","Chemlight_blue"};
-		respawnMagazines[] = {"rhs_200rnd_556x45_M_SAW","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67","Chemlight_blue"};
+		magazines[] = {"rhsusf_200Rnd_556x45_box","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67","Chemlight_blue"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_box","SmokeShell","SmokeShell","rhs_mag_m67","rhs_mag_m67","Chemlight_blue"};
 		CPC_PREVIEW(CPC_JUN_B_AMIL_soldier_SF_AR);
 	};
 	class CPC_JUN_B_AMIL_soldier_SF_AAR : CPC_JUN_B_AMIL_soldier_SF_1
@@ -467,14 +467,12 @@
 	class rhsusf_M1117_base: Wheeled_APC_F
 	{
 		class AnimationSources: AnimationSources {};
-	};
-	class rhsusf_M1117_D: rhsusf_M1117_base
-	{
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret {};
 		};
 	};
+	class rhsusf_M1117_D: rhsusf_M1117_base	{};
 	class rhsusf_M1117_W: rhsusf_M1117_D {};
 	class rhsusf_M1117_O: rhsusf_M1117_W {};
 	class CPC_JUN_B_AMIL_M1117 : rhsusf_M1117_O

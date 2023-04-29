@@ -170,10 +170,10 @@
 		camouflage = 1.6;
 		linkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_USMC_Crew_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_B_PASGT_no_bags_OD","CUP_H_USMC_Crew_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"CUP_arifle_M16A1","Throw","Put"};
-		respawnWeapons[] = {"CUP_arifle_M16A1","Throw","Put"};
-		magazines[] = {"CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","SmokeShell","CUP_HandGrenade_RGD5"};
+		weapons[] = {"CUP_smg_M3A1","Throw","Put"};
+		respawnWeapons[] = {"CUP_smg_M3A1","Throw","Put"};
+		magazines[] = {"CUP_30Rnd_45ACP_M3A1_M","CUP_30Rnd_45ACP_M3A1_M","CUP_30Rnd_45ACP_M3A1_M","SmokeShell","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_45ACP_M3A1_M","CUP_30Rnd_45ACP_M3A1_M","CUP_30Rnd_45ACP_M3A1_M","SmokeShell","CUP_HandGrenade_RGD5"};
 		CPC_PREVIEW(CPC_LAT_B_EJE_soldier_crew);
 	};
 	class CPC_LAT_B_EJE_soldier_TL : CPC_LAT_B_EJE_soldier_1
@@ -247,8 +247,8 @@
 	
 
 	// Tracked
-	class CUP_M113_Base;
-	class CPC_LAT_B_EJE_M113 : CUP_M113_Base
+	class CUP_M113A3_Base;
+	class CPC_LAT_B_EJE_M113 : CUP_M113A3_Base
 	{
 		side = 1;
 		scope = 2;
@@ -259,9 +259,41 @@
 		faction = "CPC_B_EJE";
 		crew = "CPC_LAT_B_EJE_soldier_crew";
         typicalCargo[] = {"CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_TL"};
-		HiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_olive_drab_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"};
+		hiddenSelectionsTextures[] = {
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\main_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\unique_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\accessories_CO.paa",
+			"",
+			"",
+			"",
+			""
+		};
 		VEHICLECARGOBIGEJE
 		CPC_PREVIEW(CPC_LAT_B_EJE_M113);
+	};
+	class CUP_M113A1_Base;
+	class CPC_LAT_B_EJE_M113A1 : CUP_M113A1_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		accuracy = 0.3;
+		maximumLoad = 5000;
+		faction = "CPC_B_EJE";
+		crew = "CPC_LAT_B_EJE_soldier_crew";
+        typicalCargo[] = {"CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_TL"};
+		hiddenSelectionsTextures[] = {
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\main_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\unique_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\accessories_CO.paa",
+			"",
+			"",
+			"",
+			""
+		};
+		VEHICLECARGOBIGEJE
+		CPC_PREVIEW(CPC_LAT_B_EJE_M113A1);
 	};
 	class CUP_B_M60A3_USMC;
 	class CPC_LAT_B_EJE_M60A3 : CUP_B_M60A3_USMC
@@ -451,6 +483,23 @@
         typicalCargo[] = {"CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_TL"};
 		VEHICLECARGOSMALLEJE
 		CPC_PREVIEW(CPC_LAT_B_EJE_C47);
+	};
+	class CUP_B_CESSNA_T41_ARMED_USA;
+	class CPC_LAT_B_EJE_CESSNA_T41_ARMED : CUP_B_CESSNA_T41_ARMED_USA
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		faction = "CPC_B_EJE";
+		crew = "CPC_LAT_B_EJE_soldier_Pilot";
+        typicalCargo[] = {"CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_1","CPC_LAT_B_EJE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Cessna\data\new\skins\body_olivedrab_co.paa",""};
+		textureList[] = {
+		  "mil_olive", 1
+		};
+		VEHICLECARGOSMALLEJE
+		CPC_PREVIEW(CPC_LAT_B_EJE_CESSNA_T41_ARMED);
 	};
 	
 	//Static

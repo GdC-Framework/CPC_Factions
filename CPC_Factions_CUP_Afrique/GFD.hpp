@@ -461,8 +461,8 @@
 		hiddenSelectionsTextures[] ={"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
 		CPC_PREVIEW(CPC_Duala_B_GFD_T55);
 	};
-	class CUP_M113_Base;
-	class CPC_Duala_B_GFD_M113 : CUP_M113_Base
+	class CUP_M113A3_Base;
+	class CPC_Duala_B_GFD_M113 : CUP_M113A3_Base
 	{
 		side = 1;
 		scope = 2;
@@ -471,12 +471,37 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
-		hiddenSelectionsTextures[] = 
-		{
-			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_green_CO.paa",
-			"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"
+		hiddenSelectionsTextures[] = {
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\main_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\unique_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\accessories_CO.paa",
+			"",
+			"",
+			"",
+			""
 		};
 		CPC_PREVIEW(CPC_Duala_B_GFD_M113);
+	};
+	class CUP_M113A1_Base;
+	class CPC_Duala_B_GFD_M113A1 : CUP_M113A1_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_CUP";
+		author = "CPC Faction";
+		faction = "CPC_B_GFD";
+		crew = "CPC_Duala_B_GFD_soldier_crew";
+		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
+		hiddenSelectionsTextures[] = {
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\main_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\unique_CO.paa",
+			"\CUP\TrackedVehicles\CUP_TrackedVehicles_NewM113\data\camo\olive\accessories_CO.paa",
+			"",
+			"",
+			"",
+			""
+		};
+		CPC_PREVIEW(CPC_Duala_B_GFD_M113A1);
 	};
 	class CUP_ZSU23_Base;
 	class CPC_Duala_B_GFD_ZSU23 : CUP_ZSU23_Base

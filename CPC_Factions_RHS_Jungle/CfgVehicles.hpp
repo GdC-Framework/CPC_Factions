@@ -155,8 +155,8 @@
 
 class CfgVehicles
 {
-	class rhs_rpg_empty;
-	class CPC_JUN_Backpack_AGUE_AT: rhs_rpg_empty
+	class rhs_rpg_2;
+	class CPC_JUN_Backpack_AGUE_AT: rhs_rpg_2
 	{
 		scope = 1;
 		scopeArsenal = 0;
@@ -337,10 +337,10 @@ class CfgVehicles
 		scopeArsenal = 0;
 		class TransportMagazines
 		{
-			class _xx_rhs_200rnd_556x45_M_SAW
+			class _xx_rhsusf_200Rnd_556x45_box
 			{
-				magazine = "rhs_200rnd_556x45_M_SAW";
-				count = 2;
+				magazine = "rhsusf_200Rnd_556x45_box";
+				count = 3;
 			};
 		};
 	};

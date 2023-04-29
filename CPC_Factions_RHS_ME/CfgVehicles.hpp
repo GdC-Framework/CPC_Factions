@@ -281,8 +281,8 @@
 
 class CfgVehicles
 {
-	class rhs_rpg_empty;
-	class CPC_ME_Backpack_KAM_AT: rhs_rpg_empty
+	class rhs_rpg_2;
+	class CPC_ME_Backpack_KAM_AT: rhs_rpg_2
 	{
 		scope = 1;
 		scopeArsenal = 0;
@@ -296,7 +296,8 @@ class CfgVehicles
 		};
 	};
 	class rhs_sidor;
-	class CPC_ME_Backpack_KAM_MG: rhs_sidor
+	class rhs_rd54;
+	class CPC_ME_Backpack_KAM_MG: rhs_rd54
 	{
 		scope = 1;
 		scopeArsenal = 0;
@@ -309,7 +310,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class CPC_ME_Backpack_KAM_Medic: rhs_sidor
+	class CPC_ME_Backpack_KAM_Medic: rhs_rd54
 	{
 		scope = 1;
 		scopeArsenal = 0;
@@ -327,7 +328,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class CPC_ME_Backpack_KAM_TL: rhs_sidor
+	class CPC_ME_Backpack_KAM_TL: rhs_rd54
 	{
 		scope = 1;
 		scopeArsenal = 0;
@@ -346,7 +347,7 @@ class CfgVehicles
 		};
 	};
 	class rhs_assault_umbts_engineer_empty;
-	class CPC_ME_Backpack_KAM_ENG: rhs_assault_umbts_engineer_empty
+	class CPC_ME_Backpack_KAM_ENG: rhs_rd54
 	{
 		scope = 1;
 		scopeArsenal = 0;
@@ -392,10 +393,10 @@ class CfgVehicles
 		scopeArsenal = 0;
 		class TransportMagazines
 		{
-			class _xx_rhs_100Rnd_762x54mmR_green
+			class _xx_rhsusf_100Rnd_762x51
 			{
-				magazine = "rhs_100Rnd_762x54mmR_green";
-				count = 2;
+				magazine = "rhsusf_100Rnd_762x51";
+				count = 5;
 			};
 		};
 	};
@@ -405,9 +406,9 @@ class CfgVehicles
 		scopeArsenal = 0;
 		class TransportMagazines
 		{
-			class _xx_rhs_200rnd_556x45_M_SAW
+			class _xx_rhsusf_200Rnd_556x45_box
 			{
-				magazine = "rhs_200rnd_556x45_M_SAW";
+				magazine = "rhsusf_200Rnd_556x45_box";
 				count = 3;
 			};
 		};
